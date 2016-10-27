@@ -18,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSDictionary *attributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                [UIFont systemFontOfSize:15], NSFontAttributeName,
+                                nil, NSForegroundColorAttributeName, nil];
+    [self.uiSegmentedControl setTitleTextAttributes:attributes forState:UIControlStateNormal];
+    //setting text for uilabel.
     [self.uiLabel setText:[self.state labelString]];
 }
 
