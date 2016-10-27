@@ -14,7 +14,7 @@
 		590840761DC2116A00D17852 /* WetState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840751DC2116A00D17852 /* WetState.m */; };
 		590840791DC2272300D17852 /* SandState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840781DC2272300D17852 /* SandState.m */; };
 		5908407C1DC2275200D17852 /* KneadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407B1DC2275200D17852 /* KneadState.m */; };
-		5908407F1DC22AAB00D17852 /* InformationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407E1DC22AAB00D17852 /* InformationsViewController.m */; };
+		5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407E1DC22AAB00D17852 /* InstructionsViewController.m */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -37,8 +37,8 @@
 		590840781DC2272300D17852 /* SandState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandState.m; sourceTree = "<group>"; };
 		5908407A1DC2275200D17852 /* KneadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KneadState.h; sourceTree = "<group>"; };
 		5908407B1DC2275200D17852 /* KneadState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KneadState.m; sourceTree = "<group>"; };
-		5908407D1DC22AAB00D17852 /* InformationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationsViewController.h; sourceTree = "<group>"; };
-		5908407E1DC22AAB00D17852 /* InformationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationsViewController.m; sourceTree = "<group>"; };
+		5908407D1DC22AAB00D17852 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		5908407E1DC22AAB00D17852 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 				59843B281DC0041400E64DEB /* AppDelegate.h */,
 				59843B291DC0041400E64DEB /* AppDelegate.m */,
 				59843B2E1DC0041400E64DEB /* Main.storyboard */,
-				5908407D1DC22AAB00D17852 /* InformationsViewController.h */,
-				5908407E1DC22AAB00D17852 /* InformationsViewController.m */,
+				5908407D1DC22AAB00D17852 /* InstructionsViewController.h */,
+				5908407E1DC22AAB00D17852 /* InstructionsViewController.m */,
 				590840611DC1DA9100D17852 /* ActionsViewController.h */,
 				590840621DC1DA9100D17852 /* ActionsViewController.m */,
 				5908406A1DC2012D00D17852 /* States */,
@@ -202,7 +202,7 @@
 				590840791DC2272300D17852 /* SandState.m in Sources */,
 				5908406D1DC2015C00D17852 /* State.m in Sources */,
 				590840701DC2019E00D17852 /* InitialState.m in Sources */,
-				5908407F1DC22AAB00D17852 /* InformationsViewController.m in Sources */,
+				5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,16 +6,16 @@
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import "InformationsViewController.h"
+#import "InstructionsViewController.h"
 #import "State.h"
 #import "KneadState.h"
 
-@interface InformationsViewController ()
+@interface InstructionsViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *uiLabel;
 @property (strong, nonatomic) State *state;
 @end
 
-@implementation InformationsViewController
+@implementation InstructionsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

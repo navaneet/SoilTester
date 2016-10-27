@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="819" y="7"/>
         </scene>
-        <!--Informations View Controller-->
+        <!--Instructions View Controller-->
         <scene sceneID="Euy-5I-OcB">
             <objects>
-                <viewController storyboardIdentifier="InformationsViewController" id="GbX-H5-OCk" customClass="InformationsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InstructionsViewController" id="GbX-H5-OCk" customClass="InstructionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hAE-gv-noU"/>
                         <viewControllerLayoutGuide type="bottom" id="7nv-5z-z2z"/>
@@ -66,7 +66,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="whb-mn-PQT" firstAttribute="top" secondItem="c6e-ED-chh" secondAttribute="bottom" constant="15.5" id="8K2-SW-iyf"/>
+                            <constraint firstItem="whb-mn-PQT" firstAttribute="top" secondItem="c6e-ED-chh" secondAttribute="bottom" constant="14" id="8K2-SW-iyf"/>
                             <constraint firstItem="whb-mn-PQT" firstAttribute="centerX" secondItem="c6e-ED-chh" secondAttribute="centerX" id="NqP-Hc-TQ8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="c6e-ED-chh" secondAttribute="trailing" id="Rqa-mv-z4R"/>
                             <constraint firstItem="7nv-5z-z2z" firstAttribute="top" relation="greaterThanOrEqual" secondItem="whb-mn-PQT" secondAttribute="bottom" constant="8" id="bUp-NE-yga"/>
