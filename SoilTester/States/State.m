@@ -25,4 +25,14 @@
     return nil;
 }
 
+-(State *)nextStateForActionDefault {
+    //hook method;
+    return nil;
+}
+
+-(NSString *)viewControllerId {
+    //hook method;
+    return nil;
+}
+
 @end

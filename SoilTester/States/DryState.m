@@ -7,9 +7,15 @@
 //
 
 #import "DryState.h"
+#import "KneadState.h"
 
 @implementation DryState
 -(NSString *)labelString {
     return NSLocalizedString(@"Is the soil too dry?", nil);
  }
+
+-(State *)nextStateForActionYes {
+    return [KneadState new];
+}
+
 @end

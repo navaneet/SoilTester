@@ -9,6 +9,7 @@
 #import "ActionsViewController.h"
 #import "InitialState.h"
 #import "State.h"
+#import "InstructionsViewController.h"
 
 @interface ActionsViewController()
 @property (strong, nonatomic) State *state;
@@ -34,6 +35,7 @@
 
 - (IBAction)segmentedButtonValueChanged:(id)sender {
     ActionsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ActionsViewController"];
+    InstructionsViewController *ic = [self.storyboard instantiateViewControllerWithIdentifier:@"InstructionsViewController"];
     //Yes
     if (self.uiSegmentedControl.selectedSegmentIndex == 0) {
         //get the next state for action yes
