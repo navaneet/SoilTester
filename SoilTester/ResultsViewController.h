@@ -8,6 +8,9 @@
 
 #import "BaseViewController.h"
 
+/**
+ * View Controller that manages views related to showing of the final result.
+ */
 @interface ResultsViewController : BaseViewController
 
 @end

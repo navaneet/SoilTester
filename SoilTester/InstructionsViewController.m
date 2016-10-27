@@ -18,12 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //initializes the state variable if it's not already initialized.
     if (!self.state) {
         self.state = [KneadState new];
     }
+    //setting text for label.
     [self.uiLabel setText:[self.state labelString]];
 }
 
+/**
+ * Invoked when proceed to next instruction is tapped.
+ */
 - (IBAction)nextButtonTapped:(id)sender {
     //get the next state for action next
     State *nextState = [self.state nextStateForActionNext];
