@@ -21,9 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    if (!self.state) {
-        self.state = [SqueezeIntoBallState new];
-    }
     [self.uiLabel setText:[self.state labelString]];
 }
 
