@@ -12,4 +12,9 @@
 -(NSString *)labelString {
     return NSLocalizedString(@"Sand", nil);
 }
+
+-(NSString *)viewControllerId {
+    return _ResultsViewController;
+}
+
 @end

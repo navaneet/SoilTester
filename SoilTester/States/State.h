@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#define _InstructionsViewController @"InstructionsViewController"
+#define _ActionsViewController      @"ActionsViewController"
+#define _ResultsViewController      @"ResultsViewController"
+
 /* Base class for all the states */
 @interface State : NSObject
 
@@ -20,7 +24,7 @@
 -(State *) nextStateForActionNo;
 /* Provides the next state for action next */
 -(State *) nextStateForActionNext;
-/* id of the ViewController to be used for showing the state information */
+/* Storyboard id of the ViewController to be used for showing the state information */
 -(NSString *) viewControllerId;
 
 @end

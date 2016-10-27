@@ -24,4 +24,8 @@
     return [DryState new];
 }
 
+-(NSString *)viewControllerId {
+    return _ActionsViewController;
+}
+
 @end

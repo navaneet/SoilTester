@@ -44,13 +44,7 @@
         //get the next state for action no
         nextState = [self.state nextStateForActionNo];
     }
-    NSString *viewControllerId = [nextState viewControllerId];
-    if (!viewControllerId) {
-        viewControllerId = @"ActionsViewController";
-    }
-    BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: viewControllerId];
-    vc.state = nextState;
-    [self.navigationController pushViewController:vc animated:YES];
+    [super performSeagueForState:nextState];
 }
 
 @end

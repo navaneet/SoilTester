@@ -7,6 +7,7 @@
 //
 
 #import "KneadState.h"
+#import "SqueezeIntoBallState.h"
 
 @implementation KneadState
 
@@ -15,7 +16,11 @@ return NSLocalizedString(@"Place a handful of soil (with no organic matter or ro
 }
 
 -(NSString *)viewControllerId {
-return @"InstructionsViewController";
+return _InstructionsViewController;
+}
+
+-(State *)nextStateForActionNext {
+return [SqueezeIntoBallState new];
 }
 
 @end

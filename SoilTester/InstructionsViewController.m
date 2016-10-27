@@ -26,16 +26,9 @@
 }
 
 - (IBAction)nextButtonTapped:(id)sender {
-    State *nextState;
     //get the next state for action next
-    nextState = [self.state nextStateForActionNext];
-    NSString *viewControllerId = [nextState viewControllerId];
-    if (!viewControllerId) {
-        viewControllerId = @"ActionsViewController";
-    }
-    BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: viewControllerId];
-    vc.state = nextState;
-    [self.navigationController pushViewController:vc animated:YES];
+    State *nextState = [self.state nextStateForActionNext];
+    [super performSeagueForState:nextState];
 }
 
 @end
