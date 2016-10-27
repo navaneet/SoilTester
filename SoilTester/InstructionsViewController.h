@@ -6,7 +6,6 @@
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "BaseViewController.h"
 
 @interface InstructionsViewController : BaseViewController

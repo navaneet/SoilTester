@@ -8,7 +8,7 @@
 
 
 #import "BaseViewController.h"
-#import "InitialState.h"
+#import "SqueezeIntoBallState.h"
 #import "ActionsViewController.h"
 
 @interface ActionsViewController()
@@ -22,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     if (!self.state) {
-        self.state = [InitialState new];
+        self.state = [SqueezeIntoBallState new];
     }
     [self.uiLabel setText:[self.state labelString]];
 }

@@ -25,4 +25,17 @@
     [self.uiLabel setText:[self.state labelString]];
 }
 
+- (IBAction)nextButtonTapped:(id)sender {
+    State *nextState;
+    //get the next state for action next
+    nextState = [self.state nextStateForActionNext];
+    NSString *viewControllerId = [nextState viewControllerId];
+    if (!viewControllerId) {
+        viewControllerId = @"ActionsViewController";
+    }
+    BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: viewControllerId];
+    vc.state = nextState;
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 @end

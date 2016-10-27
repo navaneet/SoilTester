@@ -25,7 +25,7 @@
     return nil;
 }
 
--(State *)nextStateForActionDefault {
+-(State *)nextStateForActionNext {
     //hook method;
     return nil;
 }

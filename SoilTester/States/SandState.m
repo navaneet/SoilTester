@@ -9,5 +9,7 @@
 #import "SandState.h"
 
 @implementation SandState
-
+-(NSString *)labelString {
+    return NSLocalizedString(@"Sand", nil);
+}
 @end

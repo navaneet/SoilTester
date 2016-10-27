@@ -18,8 +18,8 @@
 -(State *) nextStateForActionYes;
 /* Provides the next state for action no */
 -(State *) nextStateForActionNo;
-/* Provides the next state for default action */
--(State *) nextStateForActionDefault;
+/* Provides the next state for action next */
+-(State *) nextStateForActionNext;
 /* id of the ViewController to be used for showing the state information */
 -(NSString *) viewControllerId;
 

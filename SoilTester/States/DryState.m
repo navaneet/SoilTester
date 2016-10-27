@@ -8,6 +8,7 @@
 
 #import "DryState.h"
 #import "KneadState.h"
+#import "WetState.h"
 
 @implementation DryState
 -(NSString *)labelString {
@@ -16,6 +17,10 @@
 
 -(State *)nextStateForActionYes {
     return [KneadState new];
+}
+
+-(State *)nextStateForActionNo {
+    return [WetState new];
 }
 
 @end
