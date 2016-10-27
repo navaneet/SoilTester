@@ -7,7 +7,6 @@
 //
 
 #import "InstructionsViewController.h"
-#import "State.h"
 #import "KneadState.h"
 
 @interface InstructionsViewController ()
