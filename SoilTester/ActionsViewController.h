@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ActionsViewController : UIViewController
+@interface ActionsViewController : BaseViewController
 @end

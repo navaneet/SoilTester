@@ -6,13 +6,12 @@
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import "ActionsViewController.h"
+
+#import "BaseViewController.h"
 #import "InitialState.h"
-#import "State.h"
-#import "InstructionsViewController.h"
+#import "ActionsViewController.h"
 
 @interface ActionsViewController()
-@property (strong, nonatomic) State *state;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *uiSegmentedControl;
 @property (weak, nonatomic) IBOutlet UILabel *uiLabel;
 @end
@@ -34,18 +33,23 @@
 }
 
 - (IBAction)segmentedButtonValueChanged:(id)sender {
-    ActionsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ActionsViewController"];
-    InstructionsViewController *ic = [self.storyboard instantiateViewControllerWithIdentifier:@"InstructionsViewController"];
+    State *nextState;
     //Yes
     if (self.uiSegmentedControl.selectedSegmentIndex == 0) {
         //get the next state for action yes
-        vc.state = [self.state nextStateForActionYes];
+        nextState = [self.state nextStateForActionYes];
     }
     //No
     else if (self.uiSegmentedControl.selectedSegmentIndex == 1){
         //get the next state for action no
-        vc.state = [self.state nextStateForActionNo];
-    }    
+        nextState = [self.state nextStateForActionNo];
+    }
+    NSString *viewControllerId = [nextState viewControllerId];
+    if (!viewControllerId) {
+        viewControllerId = @"ActionsViewController";
+    }
+    BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: viewControllerId];
+    vc.state = nextState;
     [self.navigationController pushViewController:vc animated:YES];
 }
 
