@@ -18,7 +18,7 @@
 		590840871DC263E400D17852 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840861DC263E400D17852 /* BaseViewController.m */; };
 		5908408A1DC26D9800D17852 /* WateryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840891DC26D9800D17852 /* WateryState.m */; };
 		5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908408C1DC272A900D17852 /* ResultsViewController.m */; };
-		590840901DC28C2100D17852 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5908408F1DC28C2100D17852 /* icon.png */; };
+		590840901DC28C2100D17852 /* iconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5908408F1DC28C2100D17852 /* iconImage.png */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -49,7 +49,7 @@
 		590840891DC26D9800D17852 /* WateryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WateryState.m; sourceTree = "<group>"; };
 		5908408B1DC272A900D17852 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		5908408C1DC272A900D17852 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
-		5908408F1DC28C2100D17852 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5908408F1DC28C2100D17852 /* iconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconImage.png; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		5908408E1DC28C2100D17852 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5908408F1DC28C2100D17852 /* icon.png */,
+				5908408F1DC28C2100D17852 /* iconImage.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590840901DC28C2100D17852 /* icon.png in Resources */,
+				590840901DC28C2100D17852 /* iconImage.png in Resources */,
 				59843B351DC0041400E64DEB /* LaunchScreen.storyboard in Resources */,
 				59843B321DC0041400E64DEB /* Assets.xcassets in Resources */,
 				59843B301DC0041400E64DEB /* Main.storyboard in Resources */,
