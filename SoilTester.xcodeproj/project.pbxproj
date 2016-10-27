@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840621DC1DA9100D17852 /* ActionsViewController.m */; };
+		5908406D1DC2015C00D17852 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406C1DC2015C00D17852 /* State.m */; };
+		590840701DC2019E00D17852 /* InitialState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406F1DC2019E00D17852 /* InitialState.m */; };
+		590840731DC2115C00D17852 /* DryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840721DC2115C00D17852 /* DryState.m */; };
+		590840761DC2116A00D17852 /* WetState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840751DC2116A00D17852 /* WetState.m */; };
+		590840791DC2272300D17852 /* SandState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840781DC2272300D17852 /* SandState.m */; };
+		5908407C1DC2275200D17852 /* KneadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407B1DC2275200D17852 /* KneadState.m */; };
+		5908407F1DC22AAB00D17852 /* InformationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407E1DC22AAB00D17852 /* InformationsViewController.m */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
-		59843B2D1DC0041400E64DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B2C1DC0041400E64DEB /* ViewController.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
 		59843B321DC0041400E64DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59843B311DC0041400E64DEB /* Assets.xcassets */; };
 		59843B351DC0041400E64DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B331DC0041400E64DEB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590840611DC1DA9100D17852 /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
+		590840621DC1DA9100D17852 /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
+		5908406B1DC2015C00D17852 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		5908406C1DC2015C00D17852 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		5908406E1DC2019E00D17852 /* InitialState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialState.h; sourceTree = "<group>"; };
+		5908406F1DC2019E00D17852 /* InitialState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialState.m; sourceTree = "<group>"; };
+		590840711DC2115C00D17852 /* DryState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryState.h; sourceTree = "<group>"; };
+		590840721DC2115C00D17852 /* DryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryState.m; sourceTree = "<group>"; };
+		590840741DC2116A00D17852 /* WetState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetState.h; sourceTree = "<group>"; };
+		590840751DC2116A00D17852 /* WetState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetState.m; sourceTree = "<group>"; };
+		590840771DC2272300D17852 /* SandState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandState.h; sourceTree = "<group>"; };
+		590840781DC2272300D17852 /* SandState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandState.m; sourceTree = "<group>"; };
+		5908407A1DC2275200D17852 /* KneadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KneadState.h; sourceTree = "<group>"; };
+		5908407B1DC2275200D17852 /* KneadState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KneadState.m; sourceTree = "<group>"; };
+		5908407D1DC22AAB00D17852 /* InformationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationsViewController.h; sourceTree = "<group>"; };
+		5908407E1DC22AAB00D17852 /* InformationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationsViewController.m; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		59843B291DC0041400E64DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		59843B2B1DC0041400E64DEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		59843B2C1DC0041400E64DEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		59843B2F1DC0041400E64DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59843B311DC0041400E64DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59843B341DC0041400E64DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +60,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5908406A1DC2012D00D17852 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				5908406B1DC2015C00D17852 /* State.h */,
+				5908406C1DC2015C00D17852 /* State.m */,
+				5908407A1DC2275200D17852 /* KneadState.h */,
+				5908407B1DC2275200D17852 /* KneadState.m */,
+				5908406E1DC2019E00D17852 /* InitialState.h */,
+				5908406F1DC2019E00D17852 /* InitialState.m */,
+				590840711DC2115C00D17852 /* DryState.h */,
+				590840721DC2115C00D17852 /* DryState.m */,
+				590840741DC2116A00D17852 /* WetState.h */,
+				590840751DC2116A00D17852 /* WetState.m */,
+				590840771DC2272300D17852 /* SandState.h */,
+				590840781DC2272300D17852 /* SandState.m */,
+			);
+			path = States;
+			sourceTree = "<group>";
+		};
 		59843B191DC0041300E64DEB = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +100,12 @@
 			children = (
 				59843B281DC0041400E64DEB /* AppDelegate.h */,
 				59843B291DC0041400E64DEB /* AppDelegate.m */,
-				59843B2B1DC0041400E64DEB /* ViewController.h */,
-				59843B2C1DC0041400E64DEB /* ViewController.m */,
 				59843B2E1DC0041400E64DEB /* Main.storyboard */,
+				5908407D1DC22AAB00D17852 /* InformationsViewController.h */,
+				5908407E1DC22AAB00D17852 /* InformationsViewController.m */,
+				590840611DC1DA9100D17852 /* ActionsViewController.h */,
+				590840621DC1DA9100D17852 /* ActionsViewController.m */,
+				5908406A1DC2012D00D17852 /* States */,
 				59843B311DC0041400E64DEB /* Assets.xcassets */,
 				59843B331DC0041400E64DEB /* LaunchScreen.storyboard */,
 				59843B361DC0041400E64DEB /* Info.plist */,
@@ -150,9 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59843B2D1DC0041400E64DEB /* ViewController.m in Sources */,
 				59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */,
+				590840761DC2116A00D17852 /* WetState.m in Sources */,
+				590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */,
+				5908407C1DC2275200D17852 /* KneadState.m in Sources */,
 				59843B271DC0041400E64DEB /* main.m in Sources */,
+				590840731DC2115C00D17852 /* DryState.m in Sources */,
+				590840791DC2272300D17852 /* SandState.m in Sources */,
+				5908406D1DC2015C00D17852 /* State.m in Sources */,
+				590840701DC2019E00D17852 /* InitialState.m in Sources */,
+				5908407F1DC22AAB00D17852 /* InformationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoilTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.navaneet.sarma.SoilTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SoilTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.navaneet.sarma.SoilTester;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +361,7 @@
 				59843B3B1DC0041400E64DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
