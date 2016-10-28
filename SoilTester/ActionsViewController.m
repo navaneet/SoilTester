@@ -23,8 +23,11 @@
                                 [UIFont systemFontOfSize:15], NSFontAttributeName,
                                 nil, NSForegroundColorAttributeName, nil];
     [self.uiSegmentedControl setTitleTextAttributes:attributes forState:UIControlStateNormal];
-    //setting text for uilabel.
-    [self.uiLabel setText:[self.state labelString]];
+    
+    //setting justified alignment text for label.
+    NSAttributedString *attributedString = [self attributedStringForString:[self.state labelString]];
+    [self.uiLabel setAttributedText:attributedString];
+    
     //remove appropriate segmented button index if the next action is not specified for the provided state.
     if ([self.state nextStateForActionYes] == nil) {
         [self.uiSegmentedControl removeSegmentAtIndex:0 animated:NO];

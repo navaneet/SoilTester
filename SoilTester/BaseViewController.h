@@ -21,4 +21,8 @@
  * Pushes the appropriate view controller into the navigation controller for the provided state.
  */
 -(void) performSeagueForState:(BaseState *) state;
+/**
+ * Returns a text aligned justified NSAttributedString.
+ */
+-(NSAttributedString *) attributedStringForString:(NSString *) string;
 @end

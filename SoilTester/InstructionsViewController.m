@@ -18,14 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //setting justified alignment text for label.
-    NSString *tempString = [self.state labelString];
-    NSMutableParagraphStyle *paragraphStyles = [[NSMutableParagraphStyle alloc] init];
-    paragraphStyles.alignment                = NSTextAlignmentJustified;
-    paragraphStyles.firstLineHeadIndent      = 0.001f;
-    paragraphStyles.hyphenationFactor = 0.8f;
-    NSString *stringTojustify                = tempString;
-    NSDictionary *attributes                 = @{NSParagraphStyleAttributeName: paragraphStyles};
-    NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:stringTojustify attributes:attributes];
+    NSAttributedString *attributedString = [self attributedStringForString:[self.state labelString]];
     [self.uiLabel setAttributedText:attributedString];
     self.title = NSLocalizedString(@"Instructions", nil);
 }
@@ -36,7 +29,7 @@
 - (IBAction)nextButtonTapped:(id)sender {
     //get the next state for action next
     BaseState *nextState = [self.state nextStateForActionNext];
-    [super performSeagueForState:nextState];
+    [self performSeagueForState:nextState];
 }
 
 @end
