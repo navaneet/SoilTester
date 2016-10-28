@@ -21,6 +21,7 @@
     NSString *tempString = NSLocalizedString(@"Soil Type Is ", nil);
     NSString *soilType = [self.state labelString];
      [self.uiLabel setText: [tempString stringByAppendingFormat:@"%@", soilType]];
+    self.title = @"Result";
 }
 
 @end
