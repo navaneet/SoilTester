@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840621DC1DA9100D17852 /* ActionsViewController.m */; };
 		5908406D1DC2015C00D17852 /* BaseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406C1DC2015C00D17852 /* BaseState.m */; };
-		5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407E1DC22AAB00D17852 /* InstructionsViewController.m */; };
-		590840871DC263E400D17852 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840861DC263E400D17852 /* BaseViewController.m */; };
-		5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908408C1DC272A900D17852 /* ResultsViewController.m */; };
 		590840901DC28C2100D17852 /* iconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5908408F1DC28C2100D17852 /* iconImage.png */; };
 		595FA9C21DC33DE6006A8013 /* DryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9B71DC33DE6006A8013 /* DryState.m */; };
 		595FA9C31DC33DE6006A8013 /* KneadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9B91DC33DE6006A8013 /* KneadState.m */; };
@@ -53,19 +49,15 @@
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
 		59843B321DC0041400E64DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59843B311DC0041400E64DEB /* Assets.xcassets */; };
 		59843B351DC0041400E64DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B331DC0041400E64DEB /* LaunchScreen.storyboard */; };
+		59DEE2921DC3EAEF0001CC89 /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE28B1DC3EAEF0001CC89 /* ActionsViewController.m */; };
+		59DEE2931DC3EAEF0001CC89 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE28D1DC3EAEF0001CC89 /* BaseViewController.m */; };
+		59DEE2941DC3EAEF0001CC89 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE28F1DC3EAEF0001CC89 /* InstructionsViewController.m */; };
+		59DEE2951DC3EAEF0001CC89 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		590840611DC1DA9100D17852 /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
-		590840621DC1DA9100D17852 /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
 		5908406B1DC2015C00D17852 /* BaseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseState.h; sourceTree = "<group>"; };
 		5908406C1DC2015C00D17852 /* BaseState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseState.m; sourceTree = "<group>"; };
-		5908407D1DC22AAB00D17852 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
-		5908407E1DC22AAB00D17852 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
-		590840851DC263E400D17852 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		590840861DC263E400D17852 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		5908408B1DC272A900D17852 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
-		5908408C1DC272A900D17852 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		5908408F1DC28C2100D17852 /* iconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconImage.png; sourceTree = "<group>"; };
 		595FA9B61DC33DE6006A8013 /* DryState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryState.h; sourceTree = "<group>"; };
 		595FA9B71DC33DE6006A8013 /* DryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryState.m; sourceTree = "<group>"; };
@@ -142,6 +134,14 @@
 		59843B311DC0041400E64DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59843B341DC0041400E64DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59843B361DC0041400E64DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DEE28A1DC3EAEF0001CC89 /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
+		59DEE28B1DC3EAEF0001CC89 /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
+		59DEE28C1DC3EAEF0001CC89 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		59DEE28D1DC3EAEF0001CC89 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		59DEE28E1DC3EAEF0001CC89 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		59DEE28F1DC3EAEF0001CC89 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		59DEE2901DC3EAEF0001CC89 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,14 +357,7 @@
 				59843B281DC0041400E64DEB /* AppDelegate.h */,
 				59843B291DC0041400E64DEB /* AppDelegate.m */,
 				59843B2E1DC0041400E64DEB /* Main.storyboard */,
-				590840851DC263E400D17852 /* BaseViewController.h */,
-				590840861DC263E400D17852 /* BaseViewController.m */,
-				5908407D1DC22AAB00D17852 /* InstructionsViewController.h */,
-				5908407E1DC22AAB00D17852 /* InstructionsViewController.m */,
-				590840611DC1DA9100D17852 /* ActionsViewController.h */,
-				590840621DC1DA9100D17852 /* ActionsViewController.m */,
-				5908408B1DC272A900D17852 /* ResultsViewController.h */,
-				5908408C1DC272A900D17852 /* ResultsViewController.m */,
+				59DEE2891DC3EAEF0001CC89 /* ViewControllers */,
 				5908406A1DC2012D00D17852 /* States */,
 				5908408E1DC28C2100D17852 /* Images */,
 				59843B311DC0041400E64DEB /* Assets.xcassets */,
@@ -381,6 +374,21 @@
 				59843B261DC0041400E64DEB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59DEE2891DC3EAEF0001CC89 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				59DEE28A1DC3EAEF0001CC89 /* ActionsViewController.h */,
+				59DEE28B1DC3EAEF0001CC89 /* ActionsViewController.m */,
+				59DEE28C1DC3EAEF0001CC89 /* BaseViewController.h */,
+				59DEE28D1DC3EAEF0001CC89 /* BaseViewController.m */,
+				59DEE28E1DC3EAEF0001CC89 /* InstructionsViewController.h */,
+				59DEE28F1DC3EAEF0001CC89 /* InstructionsViewController.m */,
+				59DEE2901DC3EAEF0001CC89 /* ResultsViewController.h */,
+				59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,17 +467,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				595FA9E61DC36BCB006A8013 /* StrongRibbonState.m in Sources */,
+				59DEE2941DC3EAEF0001CC89 /* InstructionsViewController.m in Sources */,
 				59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */,
+				59DEE2921DC3EAEF0001CC89 /* ActionsViewController.m in Sources */,
 				595FA9D21DC364A1006A8013 /* WeakRibbonState.m in Sources */,
 				595FA9C41DC33DE6006A8013 /* SandState.m in Sources */,
 				595FA9DC1DC36979006A8013 /* MediumRibbonState.m in Sources */,
-				590840871DC263E400D17852 /* BaseViewController.m in Sources */,
 				595FA9C31DC33DE6006A8013 /* KneadState.m in Sources */,
 				595FA9F01DC36E81006A8013 /* GrittySandyLoamState.m in Sources */,
-				590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */,
 				595FA9C51DC33DE6006A8013 /* SqueezeIntoBallState.m in Sources */,
 				59843B271DC0041400E64DEB /* main.m in Sources */,
 				5908406D1DC2015C00D17852 /* BaseState.m in Sources */,
+				59DEE2951DC3EAEF0001CC89 /* ResultsViewController.m in Sources */,
 				595FA9C71DC33DE6006A8013 /* WetState.m in Sources */,
 				595FA9EA1DC36D0E006A8013 /* GrittyState.m in Sources */,
 				595FAA1C1DC384B8006A8013 /* SmoothSiltyClayLoamState.m in Sources */,
@@ -490,9 +499,8 @@
 				595FA9F61DC378C2006A8013 /* NonGrittyState.m in Sources */,
 				595FA9CE1DC3629F006A8013 /* LoamySandState.m in Sources */,
 				595FAA231DC38589006A8013 /* SmoothSiltyClayState.m in Sources */,
-				5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */,
-				5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */,
 				595FA9F91DC37962006A8013 /* SmoothState.m in Sources */,
+				59DEE2931DC3EAEF0001CC89 /* BaseViewController.m in Sources */,
 				595FAA041DC37B18006A8013 /* ClayLoamState.m in Sources */,
 				595FA9D81DC36822006A8013 /* SandyLoamState.m in Sources */,
 				595FAA121DC3837E006A8013 /* SiltLoamState.m in Sources */,
