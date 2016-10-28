@@ -359,8 +359,7 @@
 			children = (
 				59843B281DC0041400E64DEB /* AppDelegate.h */,
 				59843B291DC0041400E64DEB /* AppDelegate.m */,
-				59843B2E1DC0041400E64DEB /* Main.storyboard */,
-				59843B331DC0041400E64DEB /* LaunchScreen.storyboard */,
+				59DEE29A1DC3EFD10001CC89 /* Views */,
 				59DEE2891DC3EAEF0001CC89 /* ViewControllers */,
 				5908406A1DC2012D00D17852 /* States */,
 				5908408E1DC28C2100D17852 /* Images */,
@@ -392,6 +391,15 @@
 				59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		59DEE29A1DC3EFD10001CC89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59843B2E1DC0041400E64DEB /* Main.storyboard */,
+				59843B331DC0041400E64DEB /* LaunchScreen.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
