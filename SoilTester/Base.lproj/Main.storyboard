@@ -36,7 +36,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Proceed"/>
                                 <connections>
-                                    <segue destination="GbX-H5-OCk" kind="show" id="UQ1-Ne-8er"/>
+                                    <segue destination="pLQ-wr-xRW" kind="show" id="fLK-oj-t5A"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find the soil type in your area by following the instructions provided by tapping on proceed below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X07-EY-7lg">
@@ -66,6 +66,129 @@
             </objects>
             <point key="canvasLocation" x="818.39999999999998" y="6.746626686656672"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="kod-zh-3gB">
+            <objects>
+                <viewController id="pLQ-wr-xRW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="40C-Pk-Adq"/>
+                        <viewControllerLayoutGuide type="bottom" id="5vy-Mh-GEB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5DI-Yg-MlF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZ7-Si-sEL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZU-i0-QDC" userLabel="SubView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's Get Started" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDj-73-dfc">
+                                                <rect key="frame" x="8" y="18" width="359" height="26"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="26" id="Gfw-MG-qx5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="0.69019607843137254" green="0.37254901960784315" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yxY-cM-clG">
+                                                <rect key="frame" x="8" y="52" width="359" height="128"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digSoil.png" translatesAutoresizingMaskIntoConstraints="NO" id="uhe-6J-ZvJ">
+                                                        <rect key="frame" x="30" y="17" width="94" height="94"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wetSoil.png" translatesAutoresizingMaskIntoConstraints="NO" id="UGh-Zb-mm5">
+                                                        <rect key="frame" x="132" y="17" width="94" height="94"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="94" id="9C1-ha-jnL"/>
+                                                            <constraint firstAttribute="height" constant="94" id="RCd-Ef-ViZ"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rubSoil.png" translatesAutoresizingMaskIntoConstraints="NO" id="zrR-h6-mq4">
+                                                        <rect key="frame" x="234" y="17" width="94" height="94"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="UGh-Zb-mm5" firstAttribute="leading" secondItem="uhe-6J-ZvJ" secondAttribute="trailing" constant="8" id="5et-XX-wNW"/>
+                                                    <constraint firstItem="UGh-Zb-mm5" firstAttribute="width" secondItem="uhe-6J-ZvJ" secondAttribute="width" id="AEP-NF-pp1"/>
+                                                    <constraint firstAttribute="height" constant="128" id="CaD-4Q-oj7"/>
+                                                    <constraint firstItem="zrR-h6-mq4" firstAttribute="height" secondItem="uhe-6J-ZvJ" secondAttribute="height" id="Eyv-Ur-4JO"/>
+                                                    <constraint firstItem="uhe-6J-ZvJ" firstAttribute="baseline" secondItem="UGh-Zb-mm5" secondAttribute="baseline" id="Le7-PX-CMs"/>
+                                                    <constraint firstItem="UGh-Zb-mm5" firstAttribute="centerY" secondItem="yxY-cM-clG" secondAttribute="centerY" id="MQq-xP-409"/>
+                                                    <constraint firstItem="UGh-Zb-mm5" firstAttribute="height" secondItem="uhe-6J-ZvJ" secondAttribute="height" id="Nz8-oM-zac"/>
+                                                    <constraint firstItem="zrR-h6-mq4" firstAttribute="leading" secondItem="UGh-Zb-mm5" secondAttribute="trailing" constant="8" id="Rfb-jU-OYQ"/>
+                                                    <constraint firstItem="UGh-Zb-mm5" firstAttribute="baseline" secondItem="zrR-h6-mq4" secondAttribute="baseline" id="S7g-WA-H0I"/>
+                                                    <constraint firstItem="UGh-Zb-mm5" firstAttribute="centerX" secondItem="yxY-cM-clG" secondAttribute="centerX" id="kfP-JN-KAB"/>
+                                                    <constraint firstItem="zrR-h6-mq4" firstAttribute="width" secondItem="uhe-6J-ZvJ" secondAttribute="width" id="o12-do-7he"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBr-G7-9uc">
+                                                <rect key="frame" x="15" y="180" width="345" height="142.5"/>
+                                                <string key="text">1. Dig the soil in the identified area to get a couple of teaspoons of dirt.
+2. Thoroughly wet a pinch of soil in the palm of your hand.
+3. Rub the soil with your index finger.
+4. Follow the instructions in the next section by tapping on the button below.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njs-ts-WB5">
+                                                <rect key="frame" x="104" y="333.5" width="167" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="167" id="Xvl-S1-mGu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <state key="normal" title="Proceed To Next Step"/>
+                                                <connections>
+                                                    <segue destination="GbX-H5-OCk" kind="show" id="FTB-Pp-5a4"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="gDj-73-dfc" firstAttribute="trailing" secondItem="zZU-i0-QDC" secondAttribute="trailingMargin" id="0dq-cF-EVL"/>
+                                            <constraint firstItem="gDj-73-dfc" firstAttribute="leading" secondItem="zZU-i0-QDC" secondAttribute="leadingMargin" id="2iq-I0-3PY"/>
+                                            <constraint firstItem="yxY-cM-clG" firstAttribute="centerX" secondItem="kBr-G7-9uc" secondAttribute="centerX" id="9Tz-Ub-mTn"/>
+                                            <constraint firstAttribute="height" constant="603" id="A3U-q9-M97"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="njs-ts-WB5" secondAttribute="bottom" constant="8" id="ER9-ZV-ORf"/>
+                                            <constraint firstItem="kBr-G7-9uc" firstAttribute="centerX" secondItem="yxY-cM-clG" secondAttribute="centerX" id="Fu4-pS-Rkp"/>
+                                            <constraint firstItem="yxY-cM-clG" firstAttribute="top" secondItem="gDj-73-dfc" secondAttribute="bottom" constant="8" symbolic="YES" id="Vrk-qW-1lL"/>
+                                            <constraint firstItem="njs-ts-WB5" firstAttribute="top" secondItem="kBr-G7-9uc" secondAttribute="bottom" constant="11" id="YN7-cu-oqT"/>
+                                            <constraint firstItem="gDj-73-dfc" firstAttribute="leading" secondItem="yxY-cM-clG" secondAttribute="leading" id="cB9-6R-Ipf"/>
+                                            <constraint firstItem="kBr-G7-9uc" firstAttribute="leading" secondItem="zZU-i0-QDC" secondAttribute="leading" constant="15" id="cec-tB-U8c"/>
+                                            <constraint firstItem="gDj-73-dfc" firstAttribute="trailing" secondItem="yxY-cM-clG" secondAttribute="trailing" id="e7i-h5-q98"/>
+                                            <constraint firstItem="kBr-G7-9uc" firstAttribute="top" secondItem="yxY-cM-clG" secondAttribute="bottom" id="jWG-EG-Fay"/>
+                                            <constraint firstItem="gDj-73-dfc" firstAttribute="top" secondItem="zZU-i0-QDC" secondAttribute="top" constant="18" id="oeu-av-HYU"/>
+                                            <constraint firstAttribute="trailing" secondItem="kBr-G7-9uc" secondAttribute="trailing" constant="15" id="sBF-rf-Cim"/>
+                                            <constraint firstItem="kBr-G7-9uc" firstAttribute="centerX" secondItem="njs-ts-WB5" secondAttribute="centerX" id="sNd-l4-EFx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zZU-i0-QDC" firstAttribute="top" secondItem="XZ7-Si-sEL" secondAttribute="top" id="9hU-JQ-lyU"/>
+                                    <constraint firstAttribute="trailing" secondItem="zZU-i0-QDC" secondAttribute="trailing" id="CzR-CD-6e0"/>
+                                    <constraint firstAttribute="bottom" secondItem="zZU-i0-QDC" secondAttribute="bottom" constant="64" id="ZbI-5L-Twd"/>
+                                    <constraint firstItem="zZU-i0-QDC" firstAttribute="leading" secondItem="XZ7-Si-sEL" secondAttribute="leading" id="lGn-2u-xOT"/>
+                                    <constraint firstItem="zZU-i0-QDC" firstAttribute="centerX" secondItem="XZ7-Si-sEL" secondAttribute="centerX" id="qTh-b9-sjf"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XZ7-Si-sEL" firstAttribute="leading" secondItem="5DI-Yg-MlF" secondAttribute="leading" id="DK2-7U-Inx"/>
+                            <constraint firstAttribute="trailing" secondItem="XZ7-Si-sEL" secondAttribute="trailing" id="E1r-6Z-tj1"/>
+                            <constraint firstItem="XZ7-Si-sEL" firstAttribute="top" secondItem="5DI-Yg-MlF" secondAttribute="top" id="ofe-rl-4La"/>
+                            <constraint firstItem="XZ7-Si-sEL" firstAttribute="bottom" secondItem="5vy-Mh-GEB" secondAttribute="top" id="sw4-WC-vsF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dll-wc-OYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="6.746626686656672"/>
+        </scene>
         <!--Instructions View Controller-->
         <scene sceneID="Euy-5I-OcB">
             <objects>
@@ -85,9 +208,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whb-mn-PQT">
-                                <rect key="frame" x="24" y="117.5" width="213" height="33"/>
+                                <rect key="frame" x="24" y="117.5" width="167" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Proceed To Next Instruction"/>
+                                <state key="normal" title="Proceed To Next Step"/>
                                 <connections>
                                     <action selector="nextButtonTapped:" destination="GbX-H5-OCk" eventType="touchUpInside" id="4he-XC-dpm"/>
                                 </connections>
@@ -110,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X4E-jj-7EH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1536.8" y="6.746626686656672"/>
+            <point key="canvasLocation" x="2289" y="6"/>
         </scene>
         <!--Actions View Controller-->
         <scene sceneID="5Hp-z5-S2j">
@@ -179,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lyu-RV-baC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2250" y="6.4453125"/>
+            <point key="canvasLocation" x="3049" y="6"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="JcL-31-Ks9">
@@ -214,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKm-8S-euQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2958" y="7"/>
+            <point key="canvasLocation" x="3815" y="6"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0aJ-sp-DEn">
@@ -234,6 +357,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="digSoil.png" width="560" height="570"/>
         <image name="iconImage.png" width="590" height="164"/>
+        <image name="rubSoil.png" width="550" height="570"/>
+        <image name="wetSoil.png" width="552" height="572"/>
     </resources>
 </document>

@@ -45,6 +45,9 @@
 		595FAA1C1DC384B8006A8013 /* SmoothSiltyClayLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA1B1DC384B8006A8013 /* SmoothSiltyClayLoamState.m */; };
 		595FAA201DC38541006A8013 /* SiltyClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA1F1DC38541006A8013 /* SiltyClayState.m */; };
 		595FAA231DC38589006A8013 /* SmoothSiltyClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA221DC38589006A8013 /* SmoothSiltyClayState.m */; };
+		595FAA271DC39153006A8013 /* digSoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 595FAA241DC39153006A8013 /* digSoil.png */; };
+		595FAA281DC39153006A8013 /* rubSoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 595FAA251DC39153006A8013 /* rubSoil.png */; };
+		595FAA291DC39153006A8013 /* wetSoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 595FAA261DC39153006A8013 /* wetSoil.png */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -128,6 +131,9 @@
 		595FAA1F1DC38541006A8013 /* SiltyClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiltyClayState.m; sourceTree = "<group>"; };
 		595FAA211DC38589006A8013 /* SmoothSiltyClayState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothSiltyClayState.h; sourceTree = "<group>"; };
 		595FAA221DC38589006A8013 /* SmoothSiltyClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothSiltyClayState.m; sourceTree = "<group>"; };
+		595FAA241DC39153006A8013 /* digSoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digSoil.png; sourceTree = "<group>"; };
+		595FAA251DC39153006A8013 /* rubSoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubSoil.png; sourceTree = "<group>"; };
+		595FAA261DC39153006A8013 /* wetSoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wetSoil.png; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -174,6 +180,9 @@
 			isa = PBXGroup;
 			children = (
 				5908408F1DC28C2100D17852 /* iconImage.png */,
+				595FAA241DC39153006A8013 /* digSoil.png */,
+				595FAA251DC39153006A8013 /* rubSoil.png */,
+				595FAA261DC39153006A8013 /* wetSoil.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -432,10 +441,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595FAA271DC39153006A8013 /* digSoil.png in Resources */,
 				590840901DC28C2100D17852 /* iconImage.png in Resources */,
+				595FAA281DC39153006A8013 /* rubSoil.png in Resources */,
 				59843B351DC0041400E64DEB /* LaunchScreen.storyboard in Resources */,
 				59843B321DC0041400E64DEB /* Assets.xcassets in Resources */,
 				59843B301DC0041400E64DEB /* Main.storyboard in Resources */,
+				595FAA291DC39153006A8013 /* wetSoil.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
