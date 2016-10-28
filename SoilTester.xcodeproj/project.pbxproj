@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840621DC1DA9100D17852 /* ActionsViewController.m */; };
 		5908406D1DC2015C00D17852 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406C1DC2015C00D17852 /* State.m */; };
-		590840701DC2019E00D17852 /* SqueezeIntoBallState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406F1DC2019E00D17852 /* SqueezeIntoBallState.m */; };
-		590840731DC2115C00D17852 /* DryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840721DC2115C00D17852 /* DryState.m */; };
-		590840761DC2116A00D17852 /* WetState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840751DC2116A00D17852 /* WetState.m */; };
-		590840791DC2272300D17852 /* SandState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840781DC2272300D17852 /* SandState.m */; };
 		5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407E1DC22AAB00D17852 /* InstructionsViewController.m */; };
-		590840841DC2636E00D17852 /* KneadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840831DC2636E00D17852 /* KneadState.m */; };
 		590840871DC263E400D17852 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840861DC263E400D17852 /* BaseViewController.m */; };
-		5908408A1DC26D9800D17852 /* WateryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840891DC26D9800D17852 /* WateryState.m */; };
 		5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908408C1DC272A900D17852 /* ResultsViewController.m */; };
 		590840901DC28C2100D17852 /* iconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5908408F1DC28C2100D17852 /* iconImage.png */; };
+		595FA9C21DC33DE6006A8013 /* DryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9B71DC33DE6006A8013 /* DryState.m */; };
+		595FA9C31DC33DE6006A8013 /* KneadState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9B91DC33DE6006A8013 /* KneadState.m */; };
+		595FA9C41DC33DE6006A8013 /* SandState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9BB1DC33DE6006A8013 /* SandState.m */; };
+		595FA9C51DC33DE6006A8013 /* SqueezeIntoBallState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9BD1DC33DE6006A8013 /* SqueezeIntoBallState.m */; };
+		595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9BF1DC33DE6006A8013 /* WateryState.m */; };
+		595FA9C71DC33DE6006A8013 /* WetState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9C11DC33DE6006A8013 /* WetState.m */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -31,25 +31,25 @@
 		590840621DC1DA9100D17852 /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
 		5908406B1DC2015C00D17852 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
 		5908406C1DC2015C00D17852 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
-		5908406E1DC2019E00D17852 /* SqueezeIntoBallState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqueezeIntoBallState.h; sourceTree = "<group>"; };
-		5908406F1DC2019E00D17852 /* SqueezeIntoBallState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqueezeIntoBallState.m; sourceTree = "<group>"; };
-		590840711DC2115C00D17852 /* DryState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryState.h; sourceTree = "<group>"; };
-		590840721DC2115C00D17852 /* DryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryState.m; sourceTree = "<group>"; };
-		590840741DC2116A00D17852 /* WetState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetState.h; sourceTree = "<group>"; };
-		590840751DC2116A00D17852 /* WetState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetState.m; sourceTree = "<group>"; };
-		590840771DC2272300D17852 /* SandState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandState.h; sourceTree = "<group>"; };
-		590840781DC2272300D17852 /* SandState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandState.m; sourceTree = "<group>"; };
-		5908407A1DC2275200D17852 /* KneadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KneadState.h; sourceTree = "<group>"; };
 		5908407D1DC22AAB00D17852 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
 		5908407E1DC22AAB00D17852 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
-		590840831DC2636E00D17852 /* KneadState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KneadState.m; sourceTree = "<group>"; };
 		590840851DC263E400D17852 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		590840861DC263E400D17852 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		590840881DC26D9800D17852 /* WateryState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WateryState.h; sourceTree = "<group>"; };
-		590840891DC26D9800D17852 /* WateryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WateryState.m; sourceTree = "<group>"; };
 		5908408B1DC272A900D17852 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		5908408C1DC272A900D17852 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		5908408F1DC28C2100D17852 /* iconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconImage.png; sourceTree = "<group>"; };
+		595FA9B61DC33DE6006A8013 /* DryState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DryState.h; sourceTree = "<group>"; };
+		595FA9B71DC33DE6006A8013 /* DryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DryState.m; sourceTree = "<group>"; };
+		595FA9B81DC33DE6006A8013 /* KneadState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KneadState.h; sourceTree = "<group>"; };
+		595FA9B91DC33DE6006A8013 /* KneadState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KneadState.m; sourceTree = "<group>"; };
+		595FA9BA1DC33DE6006A8013 /* SandState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandState.h; sourceTree = "<group>"; };
+		595FA9BB1DC33DE6006A8013 /* SandState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandState.m; sourceTree = "<group>"; };
+		595FA9BC1DC33DE6006A8013 /* SqueezeIntoBallState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqueezeIntoBallState.h; sourceTree = "<group>"; };
+		595FA9BD1DC33DE6006A8013 /* SqueezeIntoBallState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqueezeIntoBallState.m; sourceTree = "<group>"; };
+		595FA9BE1DC33DE6006A8013 /* WateryState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WateryState.h; sourceTree = "<group>"; };
+		595FA9BF1DC33DE6006A8013 /* WateryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WateryState.m; sourceTree = "<group>"; };
+		595FA9C01DC33DE6006A8013 /* WetState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetState.h; sourceTree = "<group>"; };
+		595FA9C11DC33DE6006A8013 /* WetState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetState.m; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,18 +76,7 @@
 			children = (
 				5908406B1DC2015C00D17852 /* State.h */,
 				5908406C1DC2015C00D17852 /* State.m */,
-				5908407A1DC2275200D17852 /* KneadState.h */,
-				590840831DC2636E00D17852 /* KneadState.m */,
-				5908406E1DC2019E00D17852 /* SqueezeIntoBallState.h */,
-				5908406F1DC2019E00D17852 /* SqueezeIntoBallState.m */,
-				590840711DC2115C00D17852 /* DryState.h */,
-				590840721DC2115C00D17852 /* DryState.m */,
-				590840741DC2116A00D17852 /* WetState.h */,
-				590840751DC2116A00D17852 /* WetState.m */,
-				590840771DC2272300D17852 /* SandState.h */,
-				590840781DC2272300D17852 /* SandState.m */,
-				590840881DC26D9800D17852 /* WateryState.h */,
-				590840891DC26D9800D17852 /* WateryState.m */,
+				595FA9A31DC33D8C006A8013 /* Sand */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -98,6 +87,25 @@
 				5908408F1DC28C2100D17852 /* iconImage.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		595FA9A31DC33D8C006A8013 /* Sand */ = {
+			isa = PBXGroup;
+			children = (
+				595FA9B61DC33DE6006A8013 /* DryState.h */,
+				595FA9B71DC33DE6006A8013 /* DryState.m */,
+				595FA9B81DC33DE6006A8013 /* KneadState.h */,
+				595FA9B91DC33DE6006A8013 /* KneadState.m */,
+				595FA9BA1DC33DE6006A8013 /* SandState.h */,
+				595FA9BB1DC33DE6006A8013 /* SandState.m */,
+				595FA9BC1DC33DE6006A8013 /* SqueezeIntoBallState.h */,
+				595FA9BD1DC33DE6006A8013 /* SqueezeIntoBallState.m */,
+				595FA9BE1DC33DE6006A8013 /* WateryState.h */,
+				595FA9BF1DC33DE6006A8013 /* WateryState.m */,
+				595FA9C01DC33DE6006A8013 /* WetState.h */,
+				595FA9C11DC33DE6006A8013 /* WetState.m */,
+			);
+			path = Sand;
 			sourceTree = "<group>";
 		};
 		59843B191DC0041300E64DEB = {
@@ -174,7 +182,7 @@
 		59843B1A1DC0041300E64DEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Navaneet Sarma";
 				TargetAttributes = {
 					59843B211DC0041300E64DEB = {
@@ -221,17 +229,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */,
-				590840761DC2116A00D17852 /* WetState.m in Sources */,
+				595FA9C41DC33DE6006A8013 /* SandState.m in Sources */,
 				590840871DC263E400D17852 /* BaseViewController.m in Sources */,
+				595FA9C31DC33DE6006A8013 /* KneadState.m in Sources */,
 				590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */,
+				595FA9C51DC33DE6006A8013 /* SqueezeIntoBallState.m in Sources */,
 				59843B271DC0041400E64DEB /* main.m in Sources */,
-				590840731DC2115C00D17852 /* DryState.m in Sources */,
-				590840791DC2272300D17852 /* SandState.m in Sources */,
 				5908406D1DC2015C00D17852 /* State.m in Sources */,
-				590840701DC2019E00D17852 /* SqueezeIntoBallState.m in Sources */,
-				5908408A1DC26D9800D17852 /* WateryState.m in Sources */,
+				595FA9C71DC33DE6006A8013 /* WetState.m in Sources */,
+				595FA9C21DC33DE6006A8013 /* DryState.m in Sources */,
+				595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */,
 				5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */,
-				590840841DC2636E00D17852 /* KneadState.m in Sources */,
 				5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +284,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -324,6 +333,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
