@@ -19,7 +19,7 @@ return NSLocalizedString(@"Place a handful of soil (with no organic matter or ro
 return ID_InstructionsViewController;
 }
 
--(State *)nextStateForActionNext {
+-(BaseState *)nextStateForActionNext {
 return [SqueezeIntoBallState new];
 }
 

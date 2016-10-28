@@ -17,9 +17,9 @@
 #define ID_ResultsViewController      @"ResultsViewController"
 
 /**
- * Base class for all the states.
+ * State Class for the FSM.
  */
-@interface State : NSObject
+@interface BaseState : NSObject
 
 /**
  * Empty base class hook method intended to be overriden in the sub classes to provide the text for the UILabel.
@@ -28,15 +28,15 @@
 /**
  * Provides the next state for action yes.
  */
--(State *) nextStateForActionYes;
+-(BaseState *) nextStateForActionYes;
 /**
  * Provides the next state for action no.
  */
--(State *) nextStateForActionNo;
+-(BaseState *) nextStateForActionNo;
 /**
  * Provides the next state for action next.
  */
--(State *) nextStateForActionNext;
+-(BaseState *) nextStateForActionNext;
 /**
  * Storyboard id of the ViewController to be used for showing the state information.
  */

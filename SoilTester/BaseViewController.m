@@ -14,7 +14,7 @@
 
 @implementation BaseViewController
 
--(void)performSeagueForState:(State *)state {
+-(void)performSeagueForState:(BaseState *)state {
     BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: [state viewControllerId]];
     vc.state = state;
     [self.navigationController pushViewController:vc animated:YES];

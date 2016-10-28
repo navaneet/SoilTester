@@ -15,11 +15,11 @@
     return NSLocalizedString(@"Is the soil too dry?", nil);
  }
 
--(State *)nextStateForActionYes {
+-(BaseState *)nextStateForActionYes {
     return [KneadState new];
 }
 
--(State *)nextStateForActionNo {
+-(BaseState *)nextStateForActionNo {
     return [WetState new];
 }
 

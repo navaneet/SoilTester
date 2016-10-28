@@ -6,26 +6,26 @@
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import "State.h"
+#import "BaseState.h"
 
-@implementation State
+@implementation BaseState
 
 -(NSString *)labelString {
     //hook method;
     return nil;
 }
 
--(State *)nextStateForActionNo {
+-(BaseState *)nextStateForActionNo {
     //hook method;
     return nil;
 }
 
--(State *)nextStateForActionYes {
+-(BaseState *)nextStateForActionYes {
     //hook method;
     return nil;
 }
 
--(State *)nextStateForActionNext {
+-(BaseState *)nextStateForActionNext {
     //hook method;
     return nil;
 }

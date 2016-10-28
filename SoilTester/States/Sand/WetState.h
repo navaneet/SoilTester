@@ -6,8 +6,8 @@
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import "State.h"
+#import "BaseState.h"
 
-@interface WetState : State
+@interface WetState : BaseState
 
 @end

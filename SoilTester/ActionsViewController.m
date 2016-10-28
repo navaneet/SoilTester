@@ -33,7 +33,7 @@
 }
 
 - (IBAction)segmentedButtonValueChanged:(id)sender {
-    State *nextState;
+    BaseState *nextState;
     //Yes action
     if (self.uiSegmentedControl.selectedSegmentIndex == 0) {
         //get the next state for action yes.

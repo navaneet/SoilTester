@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840621DC1DA9100D17852 /* ActionsViewController.m */; };
-		5908406D1DC2015C00D17852 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406C1DC2015C00D17852 /* State.m */; };
+		5908406D1DC2015C00D17852 /* BaseState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908406C1DC2015C00D17852 /* BaseState.m */; };
 		5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908407E1DC22AAB00D17852 /* InstructionsViewController.m */; };
 		590840871DC263E400D17852 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590840861DC263E400D17852 /* BaseViewController.m */; };
 		5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908408C1DC272A900D17852 /* ResultsViewController.m */; };
@@ -29,8 +29,8 @@
 /* Begin PBXFileReference section */
 		590840611DC1DA9100D17852 /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
 		590840621DC1DA9100D17852 /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
-		5908406B1DC2015C00D17852 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
-		5908406C1DC2015C00D17852 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		5908406B1DC2015C00D17852 /* BaseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseState.h; sourceTree = "<group>"; };
+		5908406C1DC2015C00D17852 /* BaseState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseState.m; sourceTree = "<group>"; };
 		5908407D1DC22AAB00D17852 /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
 		5908407E1DC22AAB00D17852 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
 		590840851DC263E400D17852 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		5908406A1DC2012D00D17852 /* States */ = {
 			isa = PBXGroup;
 			children = (
-				5908406B1DC2015C00D17852 /* State.h */,
-				5908406C1DC2015C00D17852 /* State.m */,
+				5908406B1DC2015C00D17852 /* BaseState.h */,
+				5908406C1DC2015C00D17852 /* BaseState.m */,
 				595FA9A31DC33D8C006A8013 /* Sand */,
 			);
 			path = States;
@@ -235,7 +235,7 @@
 				590840631DC1DA9100D17852 /* ActionsViewController.m in Sources */,
 				595FA9C51DC33DE6006A8013 /* SqueezeIntoBallState.m in Sources */,
 				59843B271DC0041400E64DEB /* main.m in Sources */,
-				5908406D1DC2015C00D17852 /* State.m in Sources */,
+				5908406D1DC2015C00D17852 /* BaseState.m in Sources */,
 				595FA9C71DC33DE6006A8013 /* WetState.m in Sources */,
 				595FA9C21DC33DE6006A8013 /* DryState.m in Sources */,
 				595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */,

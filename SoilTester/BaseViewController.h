@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "State.h"
+#import "BaseState.h"
 
 /**
  * Base View Controller for all state related view controllers.
@@ -16,9 +16,9 @@
 /**
  * Property which holds the current state information.
  */
-@property (strong, nonatomic) State *state;
+@property (strong, nonatomic) BaseState *state;
 /**
  * Pushes the appropriate view controller into the navigation controller for the provided state.
  */
--(void) performSeagueForState:(State *) state;
+-(void) performSeagueForState:(BaseState *) state;
 @end

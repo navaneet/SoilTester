@@ -18,7 +18,7 @@
     return ID_InstructionsViewController;
 }
 
--(State *)nextStateForActionNext {
+-(BaseState *)nextStateForActionNext {
     return [KneadState new];
 }
 

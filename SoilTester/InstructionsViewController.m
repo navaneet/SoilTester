@@ -31,7 +31,7 @@
  */
 - (IBAction)nextButtonTapped:(id)sender {
     //get the next state for action next
-    State *nextState = [self.state nextStateForActionNext];
+    BaseState *nextState = [self.state nextStateForActionNext];
     [super performSeagueForState:nextState];
 }
 

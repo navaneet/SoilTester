@@ -16,11 +16,11 @@
     return NSLocalizedString(@"Does the soil stay in a ball when squeezed?", nil);
 }
 
--(State *)nextStateForActionYes {
+-(BaseState *)nextStateForActionYes {
     return [WetState new];
 }
 
--(State *)nextStateForActionNo {
+-(BaseState *)nextStateForActionNo {
     return [DryState new];
 }
 
