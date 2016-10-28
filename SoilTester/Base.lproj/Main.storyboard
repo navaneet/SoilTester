@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="x63-zy-oC3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="x63-zy-oC3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,11 +23,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="McN-Sk-E5Y">
+                                <rect key="frame" x="16" y="90" width="343" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="x7r-Vb-Ruy"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23K-EP-uxS">
+                                <rect key="frame" x="152.5" y="269" width="64" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="i64-cD-cWs"/>
                                 </constraints>
@@ -35,6 +40,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find the soil type in your area by following the instructions provided by tapping on proceed below." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X07-EY-7lg">
+                                <rect key="frame" x="34.5" y="200" width="304" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="304" id="uXG-Iy-qvY"/>
                                 </constraints>
@@ -73,11 +79,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6e-ED-chh">
+                                <rect key="frame" x="24" y="85" width="327" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whb-mn-PQT">
+                                <rect key="frame" x="24" y="117.5" width="213" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Proceed To Next Instruction"/>
                                 <connections>
@@ -117,18 +125,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r78-uW-UHa">
+                                <rect key="frame" x="16" y="41" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.81798537234042556" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="PL2-Ty-JiR">
+                                <rect key="frame" x="16" y="84" width="343" height="38"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="735" id="5VA-EL-NQn">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="329"/>
+                                    </constraint>
                                     <constraint firstAttribute="height" constant="37" id="Btq-Fm-hrO"/>
                                 </constraints>
                                 <segments>
                                     <segment title="Yes"/>
                                     <segment title="No"/>
                                 </segments>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5VA-EL-NQn"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="5VA-EL-NQn"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <action selector="segmentedButtonValueChanged:" destination="rWG-mI-mQv" eventType="valueChanged" id="0VW-ug-rlV"/>
                                 </connections>
@@ -143,6 +166,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="r78-uW-UHa" secondAttribute="trailing" id="YQH-S9-sOI"/>
                             <constraint firstItem="PL2-Ty-JiR" firstAttribute="trailing" secondItem="r78-uW-UHa" secondAttribute="trailing" id="ugP-hQ-WDr"/>
                         </constraints>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="ugP-hQ-WDr"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="uiLabel" destination="r78-uW-UHa" id="56i-fR-GYl"/>
@@ -151,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lyu-RV-baC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2250" y="7"/>
+            <point key="canvasLocation" x="2250" y="6.4453125"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="JcL-31-Ks9">
@@ -166,6 +194,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4X-yH-qy2">
+                                <rect key="frame" x="121" y="319" width="133" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
