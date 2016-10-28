@@ -32,6 +32,7 @@
     if ([self.state nextStateForActionNo] == nil) {
         [self.uiSegmentedControl removeSegmentAtIndex:1 animated:NO];
     }
+    self.title = NSLocalizedString(@"Findings", nil);
 }
 
 -(void)viewWillAppear:(BOOL)animated {

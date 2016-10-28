@@ -17,8 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //setting text for label.
-    [self.uiLabel setText:[self.state labelString]];
+    //setting justified alignment text for label.
+    NSString *tempString = [self.state labelString];
+    NSMutableParagraphStyle *paragraphStyles = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyles.alignment                = NSTextAlignmentJustified;
+    paragraphStyles.firstLineHeadIndent      = 0.001f;
+    paragraphStyles.hyphenationFactor = 0.8f;
+    NSString *stringTojustify                = tempString;
+    NSDictionary *attributes                 = @{NSParagraphStyleAttributeName: paragraphStyles};
+    NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:stringTojustify attributes:attributes];
+    [self.uiLabel setAttributedText:attributedString];
+    self.title = NSLocalizedString(@"Instructions", nil);
 }
 
 /**

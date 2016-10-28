@@ -220,14 +220,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6e-ED-chh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6e-ED-chh">
                                 <rect key="frame" x="28" y="85" width="358" height="20.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whb-mn-PQT">
-                                <rect key="frame" x="28" y="117.66666666666666" width="167" height="32.999999999999972"/>
+                                <rect key="frame" x="123.66666666666669" y="117.66666666666666" width="167" height="32.999999999999972"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Proceed To Next Step"/>
                                 <connections>
@@ -239,10 +239,10 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="c6e-ED-chh" secondAttribute="trailing" constant="8" id="7g1-92-bt7"/>
                             <constraint firstItem="whb-mn-PQT" firstAttribute="top" secondItem="c6e-ED-chh" secondAttribute="bottom" constant="12" id="8K2-SW-iyf"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="whb-mn-PQT" secondAttribute="leading" constant="-8" id="BTY-Xq-ZUc"/>
                             <constraint firstItem="c6e-ED-chh" firstAttribute="centerX" secondItem="3ob-He-Qjq" secondAttribute="centerX" id="JBR-ec-wSr"/>
                             <constraint firstItem="c6e-ED-chh" firstAttribute="leading" secondItem="3ob-He-Qjq" secondAttribute="leadingMargin" constant="8" id="bT3-GO-vM1"/>
                             <constraint firstItem="7nv-5z-z2z" firstAttribute="top" relation="greaterThanOrEqual" secondItem="whb-mn-PQT" secondAttribute="bottom" constant="8" id="bUp-NE-yga"/>
+                            <constraint firstItem="whb-mn-PQT" firstAttribute="centerX" secondItem="c6e-ED-chh" secondAttribute="centerX" id="ed0-7v-jTL"/>
                             <constraint firstItem="c6e-ED-chh" firstAttribute="top" secondItem="hAE-gv-noU" secondAttribute="bottom" constant="21" id="iVW-pZ-9NR"/>
                         </constraints>
                     </view>
