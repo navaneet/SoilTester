@@ -16,7 +16,7 @@ return NSLocalizedString(@"Place a handful of soil (with no organic matter or ro
 }
 
 -(NSString *)viewControllerId {
-return _InstructionsViewController;
+return ID_InstructionsViewController;
 }
 
 -(State *)nextStateForActionNext {

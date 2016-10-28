@@ -9,12 +9,13 @@
 #import "SandState.h"
 
 @implementation SandState
+
 -(NSString *)labelString {
     return NSLocalizedString(@"Sand", nil);
 }
 
 -(NSString *)viewControllerId {
-    return _ResultsViewController;
+    return ID_ResultsViewController;
 }
 
 @end

@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define _InstructionsViewController @"InstructionsViewController"
-#define _ActionsViewController      @"ActionsViewController"
-#define _ResultsViewController      @"ResultsViewController"
+/**
+ * View Controller ids that are used to show the state information.
+ */
+#define ID_InstructionsViewController @"InstructionsViewController"
+#define ID_ActionsViewController      @"ActionsViewController"
+#define ID_ResultsViewController      @"ResultsViewController"
 
 /**
  * Base class for all the states.

@@ -24,7 +24,7 @@
 }
 
 -(NSString *)viewControllerId {
-    return _ActionsViewController;
+    return ID_ActionsViewController;
 }
 
 @end

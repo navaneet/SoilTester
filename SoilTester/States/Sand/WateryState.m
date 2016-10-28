@@ -15,7 +15,7 @@
 }
 
 -(NSString *)viewControllerId {
-    return _InstructionsViewController;
+    return ID_InstructionsViewController;
 }
 
 -(State *)nextStateForActionNext {
