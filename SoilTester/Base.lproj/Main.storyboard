@@ -267,13 +267,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r78-uW-UHa">
-                                <rect key="frame" x="20" y="41" width="374" height="20.666666666666664"/>
+                                <rect key="frame" x="20" y="85" width="374" height="20.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.81798537234042556" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="PL2-Ty-JiR">
-                                <rect key="frame" x="20" y="84" width="374" height="38"/>
+                                <rect key="frame" x="20" y="128" width="374" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="735" id="5VA-EL-NQn">
                                         <variation key="heightClass=regular-widthClass=regular" constant="329"/>
@@ -314,6 +314,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="uiLabel" destination="r78-uW-UHa" id="56i-fR-GYl"/>
                         <outlet property="uiSegmentedControl" destination="PL2-Ty-JiR" id="fl7-IM-aV3"/>
@@ -350,6 +351,7 @@
                             <constraint firstItem="E4X-yH-qy2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4vL-Jy-f4T" secondAttribute="leadingMargin" constant="8" id="Vnm-FA-ksl"/>
                         </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="uiLabel" destination="E4X-yH-qy2" id="j0c-fF-Fkw"/>
                     </connections>
