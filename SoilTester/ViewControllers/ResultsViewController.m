@@ -18,9 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //setting text for label.
-    NSString *tempString = NSLocalizedString(@"Soil Type Is ", nil);
     NSString *soilType = [self.state labelString];
-     [self.uiLabel setText: [tempString stringByAppendingFormat:@"%@", soilType]];
+    [self.uiLabel setText: soilType];
     self.title = NSLocalizedString(@"Conclusion", nil);
 }
 
