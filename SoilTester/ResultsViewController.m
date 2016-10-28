@@ -23,9 +23,4 @@
      [self.uiLabel setText: [tempString stringByAppendingFormat:@"%@", soilType]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
