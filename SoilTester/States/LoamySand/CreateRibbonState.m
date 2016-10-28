@@ -8,6 +8,7 @@
 
 #import "CreateRibbonState.h"
 #import "LoamySandState.h"
+#import "WeakRibbonState.h"
 
 @implementation CreateRibbonState
 
@@ -16,7 +17,7 @@
 }
 
 -(BaseState *)nextStateForActionYes {
-    return [LoamySandState new];
+    return [WeakRibbonState new];
 }
 
 -(BaseState *)nextStateForActionNo {
