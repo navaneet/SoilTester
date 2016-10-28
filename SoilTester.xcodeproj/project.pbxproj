@@ -53,6 +53,7 @@
 		59DEE2931DC3EAEF0001CC89 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE28D1DC3EAEF0001CC89 /* BaseViewController.m */; };
 		59DEE2941DC3EAEF0001CC89 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE28F1DC3EAEF0001CC89 /* InstructionsViewController.m */; };
 		59DEE2951DC3EAEF0001CC89 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */; };
+		59DEE2991DC3EF4C0001CC89 /* appIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DEE2981DC3EF4C0001CC89 /* appIconImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +143,7 @@
 		59DEE28F1DC3EAEF0001CC89 /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
 		59DEE2901DC3EAEF0001CC89 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		59DEE2981DC3EF4C0001CC89 /* appIconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIconImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		5908408E1DC28C2100D17852 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				59DEE2981DC3EF4C0001CC89 /* appIconImage.png */,
 				5908408F1DC28C2100D17852 /* iconImage.png */,
 				595FAA241DC39153006A8013 /* digSoil.png */,
 				595FAA251DC39153006A8013 /* rubSoil.png */,
@@ -357,11 +360,11 @@
 				59843B281DC0041400E64DEB /* AppDelegate.h */,
 				59843B291DC0041400E64DEB /* AppDelegate.m */,
 				59843B2E1DC0041400E64DEB /* Main.storyboard */,
+				59843B331DC0041400E64DEB /* LaunchScreen.storyboard */,
 				59DEE2891DC3EAEF0001CC89 /* ViewControllers */,
 				5908406A1DC2012D00D17852 /* States */,
 				5908408E1DC28C2100D17852 /* Images */,
 				59843B311DC0041400E64DEB /* Assets.xcassets */,
-				59843B331DC0041400E64DEB /* LaunchScreen.storyboard */,
 				59843B361DC0041400E64DEB /* Info.plist */,
 				59843B251DC0041400E64DEB /* Supporting Files */,
 			);
@@ -449,6 +452,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DEE2991DC3EF4C0001CC89 /* appIconImage.png in Resources */,
 				595FAA271DC39153006A8013 /* digSoil.png in Resources */,
 				590840901DC28C2100D17852 /* iconImage.png in Resources */,
 				595FAA281DC39153006A8013 /* rubSoil.png in Resources */,
