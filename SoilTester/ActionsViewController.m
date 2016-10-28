@@ -25,6 +25,13 @@
     [self.uiSegmentedControl setTitleTextAttributes:attributes forState:UIControlStateNormal];
     //setting text for uilabel.
     [self.uiLabel setText:[self.state labelString]];
+    //remove appropriate segmented button index if the next action is not specified for the provided state.
+    if ([self.state nextStateForActionYes] == nil) {
+        [self.uiSegmentedControl removeSegmentAtIndex:0 animated:NO];
+    }
+    if ([self.state nextStateForActionNo] == nil) {
+        [self.uiSegmentedControl removeSegmentAtIndex:1 animated:NO];
+    }
 }
 
 -(void)viewWillAppear:(BOOL)animated {
