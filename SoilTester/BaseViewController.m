@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //initializes the state variable if it's not already initialized.
+    //initializes the state variable if it's not already initialized for the first run.
     if (!self.state) {
         self.state = [KneadState new];
     }
@@ -28,9 +28,15 @@
 
 -(void)performSeagueForState:(BaseState *)state {
     //pushes the appropriate view controller into the navigation stack based on the state's viewControllerId.
-    BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: [state viewControllerId]];
-    vc.state = state;
-    [self.navigationController pushViewController:vc animated:YES];
+    NSString *vc_id = [state viewControllerId];
+    //check if view controller id has been specified by the state class or not.
+    if (vc_id) {
+        BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: vc_id];
+        vc.state = state;
+        [self.navigationController pushViewController:vc animated:YES];
+    }else {
+        NSLog(@"View Controller Id not specified for state: %@", state);
+    }
 }
 
 /**

@@ -19,6 +19,8 @@
 		595FA9C51DC33DE6006A8013 /* SqueezeIntoBallState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9BD1DC33DE6006A8013 /* SqueezeIntoBallState.m */; };
 		595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9BF1DC33DE6006A8013 /* WateryState.m */; };
 		595FA9C71DC33DE6006A8013 /* WetState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9C11DC33DE6006A8013 /* WetState.m */; };
+		595FA9CB1DC35EBB006A8013 /* CreateRibbonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9CA1DC35EBB006A8013 /* CreateRibbonState.m */; };
+		595FA9CE1DC3629F006A8013 /* LoamySandState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9CD1DC3629F006A8013 /* LoamySandState.m */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -50,6 +52,10 @@
 		595FA9BF1DC33DE6006A8013 /* WateryState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WateryState.m; sourceTree = "<group>"; };
 		595FA9C01DC33DE6006A8013 /* WetState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WetState.h; sourceTree = "<group>"; };
 		595FA9C11DC33DE6006A8013 /* WetState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WetState.m; sourceTree = "<group>"; };
+		595FA9C91DC35EBB006A8013 /* CreateRibbonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRibbonState.h; sourceTree = "<group>"; };
+		595FA9CA1DC35EBB006A8013 /* CreateRibbonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRibbonState.m; sourceTree = "<group>"; };
+		595FA9CC1DC3629F006A8013 /* LoamySandState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoamySandState.h; sourceTree = "<group>"; };
+		595FA9CD1DC3629F006A8013 /* LoamySandState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoamySandState.m; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 				5908406B1DC2015C00D17852 /* BaseState.h */,
 				5908406C1DC2015C00D17852 /* BaseState.m */,
 				595FA9A31DC33D8C006A8013 /* Sand */,
+				595FA9C81DC35E82006A8013 /* LoamySand */,
 			);
 			path = States;
 			sourceTree = "<group>";
@@ -106,6 +113,17 @@
 				595FA9C11DC33DE6006A8013 /* WetState.m */,
 			);
 			path = Sand;
+			sourceTree = "<group>";
+		};
+		595FA9C81DC35E82006A8013 /* LoamySand */ = {
+			isa = PBXGroup;
+			children = (
+				595FA9C91DC35EBB006A8013 /* CreateRibbonState.h */,
+				595FA9CA1DC35EBB006A8013 /* CreateRibbonState.m */,
+				595FA9CC1DC3629F006A8013 /* LoamySandState.h */,
+				595FA9CD1DC3629F006A8013 /* LoamySandState.m */,
+			);
+			path = LoamySand;
 			sourceTree = "<group>";
 		};
 		59843B191DC0041300E64DEB = {
@@ -239,8 +257,10 @@
 				595FA9C71DC33DE6006A8013 /* WetState.m in Sources */,
 				595FA9C21DC33DE6006A8013 /* DryState.m in Sources */,
 				595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */,
+				595FA9CE1DC3629F006A8013 /* LoamySandState.m in Sources */,
 				5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */,
 				5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */,
+				595FA9CB1DC35EBB006A8013 /* CreateRibbonState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

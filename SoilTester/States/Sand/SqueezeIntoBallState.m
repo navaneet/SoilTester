@@ -8,7 +8,7 @@
 
 #import "SqueezeIntoBallState.h"
 #import "DryState.h"
-#import "WetState.h"
+#import "CreateRibbonState.h"
 
 @implementation SqueezeIntoBallState
 
@@ -17,7 +17,7 @@
 }
 
 -(BaseState *)nextStateForActionYes {
-    return [WetState new];
+    return [CreateRibbonState new];
 }
 
 -(BaseState *)nextStateForActionNo {
