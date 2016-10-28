@@ -7,7 +7,6 @@
 //
 
 #import "InstructionsViewController.h"
-#import "KneadState.h"
 
 @interface InstructionsViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *uiLabel;
@@ -18,10 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //initializes the state variable if it's not already initialized.
-    if (!self.state) {
-        self.state = [KneadState new];
-    }
     //setting text for label.
     [self.uiLabel setText:[self.state labelString]];
 }

@@ -12,7 +12,7 @@
 /**
  * Base View Controller for all state related view controllers.
  */
-@interface BaseViewController : UIViewController
+@interface BaseViewController : UIViewController<UIAlertViewDelegate>
 /**
  * Property which holds the current state information.
  */
