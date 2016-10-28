@@ -1,23 +1,23 @@
 //
-//  GrittySandyClayLoamState.m
+//  NonGrittyClayLoamState.m
 //  SoilTester
 //
 //  Created by Navaneet Sarma on 28/10/16.
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import "GrittySandyClayLoamState.h"
-#import "SandyClayLoamState.h"
 #import "NonGrittyClayLoamState.h"
+#import "ClayLoamState.h"
+#import "SmoothSiltyClayLoamState.h"
 
-@implementation GrittySandyClayLoamState
+@implementation NonGrittyClayLoamState
 
 -(BaseState *)nextStateForActionYes {
-    return [SandyClayLoamState new];
+    return [ClayLoamState new];
 }
 
 -(BaseState *)nextStateForActionNo {
-    return [NonGrittyClayLoamState new];
+    return [SmoothSiltyClayLoamState new];
 }
 
 @end

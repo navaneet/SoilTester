@@ -31,6 +31,20 @@
 		595FA9ED1DC36E55006A8013 /* GrittySandyClayLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9EC1DC36E55006A8013 /* GrittySandyClayLoamState.m */; };
 		595FA9F01DC36E81006A8013 /* GrittySandyLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9EF1DC36E81006A8013 /* GrittySandyLoamState.m */; };
 		595FA9F31DC36ECF006A8013 /* GrittySandyClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9F21DC36ECF006A8013 /* GrittySandyClayState.m */; };
+		595FA9F61DC378C2006A8013 /* NonGrittyState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9F51DC378C2006A8013 /* NonGrittyState.m */; };
+		595FA9F91DC37962006A8013 /* SmoothState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9F81DC37962006A8013 /* SmoothState.m */; };
+		595FA9FD1DC379EC006A8013 /* LoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9FC1DC379EC006A8013 /* LoamState.m */; };
+		595FAA001DC37A4F006A8013 /* NonGrittyLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FA9FF1DC37A4F006A8013 /* NonGrittyLoamState.m */; };
+		595FAA041DC37B18006A8013 /* ClayLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA031DC37B18006A8013 /* ClayLoamState.m */; };
+		595FAA071DC37B87006A8013 /* NonGrittyClayLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA061DC37B87006A8013 /* NonGrittyClayLoamState.m */; };
+		595FAA0B1DC37C3D006A8013 /* ClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA0A1DC37C3D006A8013 /* ClayState.m */; };
+		595FAA0E1DC37C80006A8013 /* NonGrittyClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA0D1DC37C80006A8013 /* NonGrittyClayState.m */; };
+		595FAA121DC3837E006A8013 /* SiltLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA111DC3837E006A8013 /* SiltLoamState.m */; };
+		595FAA151DC383BA006A8013 /* SmoothSiltLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA141DC383BA006A8013 /* SmoothSiltLoamState.m */; };
+		595FAA191DC38477006A8013 /* SiltyClayLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA181DC38477006A8013 /* SiltyClayLoamState.m */; };
+		595FAA1C1DC384B8006A8013 /* SmoothSiltyClayLoamState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA1B1DC384B8006A8013 /* SmoothSiltyClayLoamState.m */; };
+		595FAA201DC38541006A8013 /* SiltyClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA1F1DC38541006A8013 /* SiltyClayState.m */; };
+		595FAA231DC38589006A8013 /* SmoothSiltyClayState.m in Sources */ = {isa = PBXBuildFile; fileRef = 595FAA221DC38589006A8013 /* SmoothSiltyClayState.m */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -86,6 +100,34 @@
 		595FA9EF1DC36E81006A8013 /* GrittySandyLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrittySandyLoamState.m; sourceTree = "<group>"; };
 		595FA9F11DC36ECF006A8013 /* GrittySandyClayState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrittySandyClayState.h; sourceTree = "<group>"; };
 		595FA9F21DC36ECF006A8013 /* GrittySandyClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrittySandyClayState.m; sourceTree = "<group>"; };
+		595FA9F41DC378C2006A8013 /* NonGrittyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonGrittyState.h; sourceTree = "<group>"; };
+		595FA9F51DC378C2006A8013 /* NonGrittyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonGrittyState.m; sourceTree = "<group>"; };
+		595FA9F71DC37962006A8013 /* SmoothState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothState.h; sourceTree = "<group>"; };
+		595FA9F81DC37962006A8013 /* SmoothState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothState.m; sourceTree = "<group>"; };
+		595FA9FB1DC379EC006A8013 /* LoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoamState.h; sourceTree = "<group>"; };
+		595FA9FC1DC379EC006A8013 /* LoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoamState.m; sourceTree = "<group>"; };
+		595FA9FE1DC37A4F006A8013 /* NonGrittyLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonGrittyLoamState.h; sourceTree = "<group>"; };
+		595FA9FF1DC37A4F006A8013 /* NonGrittyLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonGrittyLoamState.m; sourceTree = "<group>"; };
+		595FAA021DC37B18006A8013 /* ClayLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayLoamState.h; sourceTree = "<group>"; };
+		595FAA031DC37B18006A8013 /* ClayLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayLoamState.m; sourceTree = "<group>"; };
+		595FAA051DC37B87006A8013 /* NonGrittyClayLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonGrittyClayLoamState.h; sourceTree = "<group>"; };
+		595FAA061DC37B87006A8013 /* NonGrittyClayLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonGrittyClayLoamState.m; sourceTree = "<group>"; };
+		595FAA091DC37C3D006A8013 /* ClayState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClayState.h; sourceTree = "<group>"; };
+		595FAA0A1DC37C3D006A8013 /* ClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClayState.m; sourceTree = "<group>"; };
+		595FAA0C1DC37C80006A8013 /* NonGrittyClayState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonGrittyClayState.h; sourceTree = "<group>"; };
+		595FAA0D1DC37C80006A8013 /* NonGrittyClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonGrittyClayState.m; sourceTree = "<group>"; };
+		595FAA101DC3837E006A8013 /* SiltLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiltLoamState.h; sourceTree = "<group>"; };
+		595FAA111DC3837E006A8013 /* SiltLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiltLoamState.m; sourceTree = "<group>"; };
+		595FAA131DC383BA006A8013 /* SmoothSiltLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothSiltLoamState.h; sourceTree = "<group>"; };
+		595FAA141DC383BA006A8013 /* SmoothSiltLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothSiltLoamState.m; sourceTree = "<group>"; };
+		595FAA171DC38477006A8013 /* SiltyClayLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiltyClayLoamState.h; sourceTree = "<group>"; };
+		595FAA181DC38477006A8013 /* SiltyClayLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiltyClayLoamState.m; sourceTree = "<group>"; };
+		595FAA1A1DC384B8006A8013 /* SmoothSiltyClayLoamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothSiltyClayLoamState.h; sourceTree = "<group>"; };
+		595FAA1B1DC384B8006A8013 /* SmoothSiltyClayLoamState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothSiltyClayLoamState.m; sourceTree = "<group>"; };
+		595FAA1E1DC38541006A8013 /* SiltyClayState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiltyClayState.h; sourceTree = "<group>"; };
+		595FAA1F1DC38541006A8013 /* SiltyClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiltyClayState.m; sourceTree = "<group>"; };
+		595FAA211DC38589006A8013 /* SmoothSiltyClayState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothSiltyClayState.h; sourceTree = "<group>"; };
+		595FAA221DC38589006A8013 /* SmoothSiltyClayState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothSiltyClayState.m; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +155,12 @@
 				5908406B1DC2015C00D17852 /* BaseState.h */,
 				5908406C1DC2015C00D17852 /* BaseState.m */,
 				595FA9E71DC36CC8006A8013 /* SharedStates */,
+				595FAA1D1DC38517006A8013 /* SiltyClay */,
+				595FAA161DC38460006A8013 /* SiltyClayLoam */,
+				595FAA0F1DC3835C006A8013 /* SiltLoam */,
+				595FAA081DC37BFB006A8013 /* Clay */,
+				595FAA011DC37AF4006A8013 /* ClayLoam */,
+				595FA9FA1DC379C8006A8013 /* Loam */,
 				595FA9A31DC33D8C006A8013 /* Sand */,
 				595FA9E01DC36B74006A8013 /* SandyClay */,
 				595FA9D91DC3693F006A8013 /* SandyClayLoam */,
@@ -204,8 +252,78 @@
 			children = (
 				595FA9E81DC36D0E006A8013 /* GrittyState.h */,
 				595FA9E91DC36D0E006A8013 /* GrittyState.m */,
+				595FA9F41DC378C2006A8013 /* NonGrittyState.h */,
+				595FA9F51DC378C2006A8013 /* NonGrittyState.m */,
+				595FA9F71DC37962006A8013 /* SmoothState.h */,
+				595FA9F81DC37962006A8013 /* SmoothState.m */,
 			);
 			path = SharedStates;
+			sourceTree = "<group>";
+		};
+		595FA9FA1DC379C8006A8013 /* Loam */ = {
+			isa = PBXGroup;
+			children = (
+				595FA9FB1DC379EC006A8013 /* LoamState.h */,
+				595FA9FC1DC379EC006A8013 /* LoamState.m */,
+				595FA9FE1DC37A4F006A8013 /* NonGrittyLoamState.h */,
+				595FA9FF1DC37A4F006A8013 /* NonGrittyLoamState.m */,
+			);
+			path = Loam;
+			sourceTree = "<group>";
+		};
+		595FAA011DC37AF4006A8013 /* ClayLoam */ = {
+			isa = PBXGroup;
+			children = (
+				595FAA021DC37B18006A8013 /* ClayLoamState.h */,
+				595FAA031DC37B18006A8013 /* ClayLoamState.m */,
+				595FAA051DC37B87006A8013 /* NonGrittyClayLoamState.h */,
+				595FAA061DC37B87006A8013 /* NonGrittyClayLoamState.m */,
+			);
+			path = ClayLoam;
+			sourceTree = "<group>";
+		};
+		595FAA081DC37BFB006A8013 /* Clay */ = {
+			isa = PBXGroup;
+			children = (
+				595FAA091DC37C3D006A8013 /* ClayState.h */,
+				595FAA0A1DC37C3D006A8013 /* ClayState.m */,
+				595FAA0C1DC37C80006A8013 /* NonGrittyClayState.h */,
+				595FAA0D1DC37C80006A8013 /* NonGrittyClayState.m */,
+			);
+			path = Clay;
+			sourceTree = "<group>";
+		};
+		595FAA0F1DC3835C006A8013 /* SiltLoam */ = {
+			isa = PBXGroup;
+			children = (
+				595FAA101DC3837E006A8013 /* SiltLoamState.h */,
+				595FAA111DC3837E006A8013 /* SiltLoamState.m */,
+				595FAA131DC383BA006A8013 /* SmoothSiltLoamState.h */,
+				595FAA141DC383BA006A8013 /* SmoothSiltLoamState.m */,
+			);
+			path = SiltLoam;
+			sourceTree = "<group>";
+		};
+		595FAA161DC38460006A8013 /* SiltyClayLoam */ = {
+			isa = PBXGroup;
+			children = (
+				595FAA171DC38477006A8013 /* SiltyClayLoamState.h */,
+				595FAA181DC38477006A8013 /* SiltyClayLoamState.m */,
+				595FAA1A1DC384B8006A8013 /* SmoothSiltyClayLoamState.h */,
+				595FAA1B1DC384B8006A8013 /* SmoothSiltyClayLoamState.m */,
+			);
+			path = SiltyClayLoam;
+			sourceTree = "<group>";
+		};
+		595FAA1D1DC38517006A8013 /* SiltyClay */ = {
+			isa = PBXGroup;
+			children = (
+				595FAA1E1DC38541006A8013 /* SiltyClayState.h */,
+				595FAA1F1DC38541006A8013 /* SiltyClayState.m */,
+				595FAA211DC38589006A8013 /* SmoothSiltyClayState.h */,
+				595FAA221DC38589006A8013 /* SmoothSiltyClayState.m */,
+			);
+			path = SiltyClay;
 			sourceTree = "<group>";
 		};
 		59843B191DC0041300E64DEB = {
@@ -342,16 +460,30 @@
 				5908406D1DC2015C00D17852 /* BaseState.m in Sources */,
 				595FA9C71DC33DE6006A8013 /* WetState.m in Sources */,
 				595FA9EA1DC36D0E006A8013 /* GrittyState.m in Sources */,
+				595FAA1C1DC384B8006A8013 /* SmoothSiltyClayLoamState.m in Sources */,
 				595FA9C21DC33DE6006A8013 /* DryState.m in Sources */,
+				595FAA191DC38477006A8013 /* SiltyClayLoamState.m in Sources */,
 				595FA9E31DC36B8D006A8013 /* SandyClayState.m in Sources */,
+				595FAA0B1DC37C3D006A8013 /* ClayState.m in Sources */,
 				595FA9F31DC36ECF006A8013 /* GrittySandyClayState.m in Sources */,
 				595FA9DF1DC36A1C006A8013 /* SandyClayLoamState.m in Sources */,
 				595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */,
+				595FAA201DC38541006A8013 /* SiltyClayState.m in Sources */,
 				595FA9ED1DC36E55006A8013 /* GrittySandyClayLoamState.m in Sources */,
+				595FAA001DC37A4F006A8013 /* NonGrittyLoamState.m in Sources */,
+				595FAA0E1DC37C80006A8013 /* NonGrittyClayState.m in Sources */,
+				595FAA151DC383BA006A8013 /* SmoothSiltLoamState.m in Sources */,
+				595FAA071DC37B87006A8013 /* NonGrittyClayLoamState.m in Sources */,
+				595FA9FD1DC379EC006A8013 /* LoamState.m in Sources */,
+				595FA9F61DC378C2006A8013 /* NonGrittyState.m in Sources */,
 				595FA9CE1DC3629F006A8013 /* LoamySandState.m in Sources */,
+				595FAA231DC38589006A8013 /* SmoothSiltyClayState.m in Sources */,
 				5908407F1DC22AAB00D17852 /* InstructionsViewController.m in Sources */,
 				5908408D1DC272A900D17852 /* ResultsViewController.m in Sources */,
+				595FA9F91DC37962006A8013 /* SmoothState.m in Sources */,
+				595FAA041DC37B18006A8013 /* ClayLoamState.m in Sources */,
 				595FA9D81DC36822006A8013 /* SandyLoamState.m in Sources */,
+				595FAA121DC3837E006A8013 /* SiltLoamState.m in Sources */,
 				595FA9CB1DC35EBB006A8013 /* CreateRibbonState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
