@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -69,7 +69,7 @@
         <!--View Controller-->
         <scene sceneID="kod-zh-3gB">
             <objects>
-                <viewController id="pLQ-wr-xRW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LetsGetStartedViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pLQ-wr-xRW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="40C-Pk-Adq"/>
                         <viewControllerLayoutGuide type="bottom" id="5vy-Mh-GEB"/>
@@ -293,7 +293,7 @@
         <!--Instructions View Controller-->
         <scene sceneID="Euy-5I-OcB">
             <objects>
-                <viewController storyboardIdentifier="InstructionsViewController" id="GbX-H5-OCk" customClass="InstructionsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InstructionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GbX-H5-OCk" customClass="InstructionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hAE-gv-noU"/>
                         <viewControllerLayoutGuide type="bottom" id="7nv-5z-z2z"/>
@@ -339,7 +339,7 @@
         <!--Actions View Controller-->
         <scene sceneID="5Hp-z5-S2j">
             <objects>
-                <viewController storyboardIdentifier="ActionsViewController" id="rWG-mI-mQv" customClass="ActionsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ActionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rWG-mI-mQv" customClass="ActionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U3V-8N-YQf"/>
                         <viewControllerLayoutGuide type="bottom" id="aps-lC-zUk"/>
@@ -409,7 +409,7 @@
         <!--Results View Controller-->
         <scene sceneID="JcL-31-Ks9">
             <objects>
-                <viewController storyboardIdentifier="ResultsViewController" id="u9i-8i-Orv" customClass="ResultsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="u9i-8i-Orv" customClass="ResultsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pJb-35-T8S"/>
                         <viewControllerLayoutGuide type="bottom" id="Cmx-6E-Dkk"/>
@@ -445,7 +445,7 @@
         <!--Navigation Controller-->
         <scene sceneID="0aJ-sp-DEn">
             <objects>
-                <navigationController id="x63-zy-oC3" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="RootNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="x63-zy-oC3" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PAw-vR-fZS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
