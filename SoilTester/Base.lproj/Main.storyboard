@@ -419,8 +419,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4X-yH-qy2">
-                                <rect key="frame" x="140.66666666666669" y="353.66666666666669" width="133.00000000000006" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <rect key="frame" x="125" y="350.66666666666669" width="165" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.69019607843137254" green="0.37254901960784315" blue="0.16862745098039217" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
