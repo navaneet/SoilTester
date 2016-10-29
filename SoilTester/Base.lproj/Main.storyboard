@@ -29,11 +29,8 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23K-EP-uxS">
-                                <rect key="frame" x="172" y="269" width="64" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="i64-cD-cWs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="170.66666666666666" y="269" width="68" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Proceed"/>
                                 <connections>
                                     <segue destination="pLQ-wr-xRW" kind="show" id="fLK-oj-t5A"/>
@@ -223,11 +220,8 @@
                                                 </variation>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njs-ts-WB5">
-                                                <rect key="frame" x="123.66666666666669" y="275.66666666666669" width="167" height="33"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="167" id="Xvl-S1-mGu"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="118.66666666666669" y="275.66666666666669" width="177" height="34"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="Proceed To Next Step"/>
                                                 <connections>
                                                     <segue destination="GbX-H5-OCk" kind="show" id="FTB-Pp-5a4"/>
@@ -309,8 +303,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whb-mn-PQT">
-                                <rect key="frame" x="123.66666666666669" y="117.66666666666666" width="167" height="32.999999999999972"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="118.66666666666669" y="117.66666666666666" width="177" height="33.999999999999972"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Proceed To Next Step"/>
                                 <connections>
                                     <action selector="nextButtonTapped:" destination="GbX-H5-OCk" eventType="touchUpInside" id="4he-XC-dpm"/>
@@ -419,7 +413,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4X-yH-qy2">
-                                <rect key="frame" x="125" y="350.66666666666669" width="165" height="36"/>
+                                <rect key="frame" x="124.66666666666669" y="350" width="165" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.69019607843137254" green="0.37254901960784315" blue="0.16862745098039217" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
