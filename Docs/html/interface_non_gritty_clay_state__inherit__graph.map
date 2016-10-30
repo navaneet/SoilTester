@@ -1,0 +1,4 @@
+<map id="NonGrittyClayState" name="NonGrittyClayState">
+<area shape="rect" id="node2" href="$interface_non_gritty_state.html" title="NonGrittyState" alt="" coords="46,152,155,177"/>
+<area shape="rect" id="node3" href="$interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. " alt="" coords="59,79,142,104"/>
+</map>

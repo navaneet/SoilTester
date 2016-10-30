@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$interface_base_view_controller.html" title="Base View Controller for all state related view controllers and conforms to UIAlertViewDelegate and U..." alt="" coords="213,55,334,80"/>
+<area shape="rect" id="node3" href="$interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a..." alt="" coords="394,5,546,31"/>
+<area shape="rect" id="node4" href="$interface_instructions_view_controller.html" title="View Controller that manages views related to showing of instructions involved in going to the next s..." alt="" coords="382,55,558,80"/>
+<area shape="rect" id="node5" href="$interface_results_view_controller.html" title="View Controller that manages views related to showing of the final result to the user. " alt="" coords="394,104,546,129"/>
+</map>
