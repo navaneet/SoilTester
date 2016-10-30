@@ -31,8 +31,9 @@
     NSString *soilType = [self.state labelString];
     [self.uiLabel setText: soilType];
     self.title = NSLocalizedString(@"Conclusion", nil);
+    //Asynchronously update the uiTextView as reading all the states from persistence might take some time on older devices.
     ResultsViewController *__weak weakSelf = self;
-    dispatch_async(dispatch_get_main_queue(), ^{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
         NSString *tempString = @"";
         int index = 1;
         NSMutableArray *array = [Persistance dataFromPersistanceStore];
@@ -45,7 +46,9 @@
             }
             index++;
         }
-        [weakSelf.uiTextView setAttributedText:[weakSelf attributedStringForString:tempString]];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [weakSelf.uiTextView setAttributedText:[weakSelf attributedStringForString:tempString]];
+        });
     });
 }
 
