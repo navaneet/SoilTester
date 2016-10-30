@@ -17,7 +17,6 @@
 
 +(void) persistToState:(BaseState *)state fromState:(BaseState *)previousState {
     //persist viewcontroller states for actions performed.
-    if ([state action]) {
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         NSMutableArray *array = [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
         if (!array) {
@@ -30,7 +29,6 @@
         [array addObject:data];
         [defaults setObject:array forKey:ARCHIVER_KEY];
         [defaults synchronize];
-    }
 }
 
 +(void)removeLastObjectFromPersistantStore {

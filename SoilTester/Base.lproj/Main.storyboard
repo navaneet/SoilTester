@@ -418,7 +418,7 @@
                                 <color key="textColor" red="0.69019607843137254" green="0.37254901960784315" blue="0.16862745098039217" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soil Type Based On Findings Below :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4S-Hj-Al3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soil Type Based On Steps Below :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4S-Hj-Al3">
                                 <rect key="frame" x="25" y="139" width="364" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.27450980392156865" green="0.40392156862745099" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>

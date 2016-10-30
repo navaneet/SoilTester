@@ -34,12 +34,18 @@
     ResultsViewController *__weak weakSelf = self;
     dispatch_async(dispatch_get_main_queue(), ^{
         NSString *tempString = @"";
+        int index = 1;
         NSMutableArray *array = [Persistance dataFromPersistanceStore];
         for (NSData *data in array) {
             BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-            tempString = [tempString stringByAppendingFormat:@"%@ : %@\n\n", [state labelString],[[state action] boolValue]?NSLocalizedString(@"Yes",nil):NSLocalizedString(@"No",nil)];
+            if ([state action] ) {
+                tempString = [tempString stringByAppendingFormat:@"%d) %@ : %@\n\n",index,[state labelString],[[state action] boolValue]?NSLocalizedString(@"Yes",nil):NSLocalizedString(@"No",nil)];
+            } else {
+                tempString = [tempString stringByAppendingFormat:@"%d) %@\n\n",index,[state labelString]];
+            }
+            index++;
         }
-        [weakSelf.uiTextView setText:tempString];
+        [weakSelf.uiTextView setAttributedText:[weakSelf attributedStringForString:tempString]];
     });
 }
 
