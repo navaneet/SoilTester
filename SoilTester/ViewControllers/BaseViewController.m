@@ -10,6 +10,15 @@
 #import "KneadState.h"
 #import "Persistance.h"
 
+/**
+ * Key used for preserving restoration state for runtime state objects.
+ */
+#define RESTORATION_KEY_STATES @"states"
+/**
+ * Key used for preserving restoration state for serilaized state objects.
+ */
+#define RESTORATION_KEY_STATE_SERIALIZED @"serialized"
+
 @interface BaseViewController ()
 @end
 
@@ -83,6 +92,27 @@
     NSDictionary *attributes                 = @{NSParagraphStyleAttributeName: paragraphStyles};
     NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:stringTojustify attributes:attributes];
     return attributedString;
+}
+
+/**
+ * Delegate method for UIStateRestoring protocol that encodes the app state.
+ */
+- (void)encodeRestorableStateWithCoder:(NSCoder *)coder {
+    //encode app state for state restoration.
+    [coder encodeObject:self.state forKey:RESTORATION_KEY_STATES];
+    [coder encodeObject:[Persistance dataFromPersistanceStore] forKey:RESTORATION_KEY_STATE_SERIALIZED];
+    [super encodeRestorableStateWithCoder:coder];
+}
+
+/**
+ * Delegate method for UIStateRestoring protocol that decodes the app state.
+ */
+- (void)decodeRestorableStateWithCoder:(NSCoder *)coder {
+    //decode app state for state restoration.
+    self.state = [coder decodeObjectForKey:RESTORATION_KEY_STATES];
+    NSMutableArray *array = [coder decodeObjectForKey:RESTORATION_KEY_STATE_SERIALIZED];
+    [Persistance persistsStateArray:array];
+    [super decodeRestorableStateWithCoder:coder];
 }
 
 -(void)updateUI {

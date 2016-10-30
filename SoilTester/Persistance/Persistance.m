@@ -32,7 +32,6 @@
 }
 
 +(void)removeLastObjectFromPersistantStore {
-    //specific stuff for being popped off stack
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSMutableArray *array = [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
     NSData *lastObject = [array lastObject];
@@ -43,6 +42,12 @@
     [defaults setObject:array forKey:ARCHIVER_KEY];
     [defaults synchronize];
     }
+}
+
++(void)persistsStateArray:(NSMutableArray *)array {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:array forKey:ARCHIVER_KEY];
+    [defaults synchronize];
 }
 
 +(void)clearAllData {

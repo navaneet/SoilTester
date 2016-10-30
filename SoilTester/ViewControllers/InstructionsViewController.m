@@ -36,4 +36,9 @@
     self.title = NSLocalizedString(@"Instructions", nil);
 }
 
+-(void)decodeRestorableStateWithCoder:(NSCoder *)coder {
+    [super decodeRestorableStateWithCoder:coder];
+    [self updateUI];
+}
+
 @end

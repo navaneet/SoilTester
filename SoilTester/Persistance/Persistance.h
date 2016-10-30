@@ -10,12 +10,12 @@
 #import "BaseState.h"
 
 /**
- * Class that manages persistance logic that manages data being stored into NSUserDefaults.
+ * Class that manages persistance logic that manages data being stored using NSUserDefaults.
  */
 @interface Persistance : NSObject
 
 /**
- * Persists the state passed as argument to NSUserdefaults using the key ARCHIVER_KEY.
+ * Serializes the state passed as argument using NSUserdefaults with the key ARCHIVER_KEY.
  * @param state state to which to persist to.
  * @param previousState previous state from which to persist from.
  */
@@ -35,5 +35,11 @@
  * Returns a mutable array of persisted data if data exists in NSUserDefaults otherwise returns nil.
  */
 +(NSMutableArray *) dataFromPersistanceStore;
+
+/**
+ * Serializes an array of states stored as NSData objects using NSUserdefaults.
+ * @param array array of states with NSData Objects.
+ */
++(void) persistsStateArray:(NSMutableArray *) array;
 
 @end

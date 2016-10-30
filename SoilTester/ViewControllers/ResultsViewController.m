@@ -52,4 +52,9 @@
     });
 }
 
+-(void)decodeRestorableStateWithCoder:(NSCoder *)coder {
+    [super decodeRestorableStateWithCoder:coder];
+    [self updateUI];
+}
+
 @end

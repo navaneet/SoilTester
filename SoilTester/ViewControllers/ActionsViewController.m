@@ -65,4 +65,9 @@
     self.title = NSLocalizedString(@"Findings", nil);
 }
 
+-(void)decodeRestorableStateWithCoder:(NSCoder *)coder {
+    [super decodeRestorableStateWithCoder:coder];
+    [self updateUI];
+}
+
 @end
