@@ -17,10 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    //setting justified alignment text for label.
-    NSAttributedString *attributedString = [self attributedStringForString:[self.state labelString]];
-    [self.uiLabel setAttributedText:attributedString];
-    self.title = NSLocalizedString(@"Instructions", nil);
+    [self updateUI];
 }
 
 /**
@@ -30,6 +27,13 @@
     //get the next state for action next
     BaseState *nextState = [self.state nextStateForActionNext];
     [self performSeagueForState:nextState];
+}
+
+-(void)updateUI {
+    //setting justified alignment text for label.
+    NSAttributedString *attributedString = [self attributedStringForString:[self.state labelString]];
+    [self.uiLabel setAttributedText:attributedString];
+    self.title = NSLocalizedString(@"Instructions", nil);
 }
 
 @end

@@ -8,9 +8,11 @@
 
 #import "BaseViewController.h"
 #import "KneadState.h"
+#import "Persistance.h"
+
+#define RESTORATION_KEY_STATES @"states"
 
 @interface BaseViewController ()
-
 @end
 
 @implementation BaseViewController
@@ -34,8 +36,19 @@
         BaseViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier: vc_id];
         vc.state = state;
         [self.navigationController pushViewController:vc animated:YES];
+        //persist Action states to show in ResultsViewController.
+        [Persistance persistToState:state fromState:self.state];
     }else {
         NSLog(@"View Controller Id not specified for state: %@", state);
+    }
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    //Detects back pressed on view controller.
+    if ([self isMovingFromParentViewController]) {
+        //Remove the last persisted object.
+        [Persistance removeLastObjectFromPersistantStore];
     }
 }
 
@@ -55,6 +68,7 @@
     if (buttonIndex != [alertView cancelButtonIndex]) {
         //pops the navigation stack.
         [self.navigationController popToRootViewControllerAnimated:YES];
+        [Persistance clearAllData];
     }
 }
 
@@ -67,6 +81,10 @@
     NSDictionary *attributes                 = @{NSParagraphStyleAttributeName: paragraphStyles};
     NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:stringTojustify attributes:attributes];
     return attributedString;
+}
+
+-(void)updateUI {
+// hook method, override in subclass.
 }
 
 @end

@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -66,7 +66,7 @@
         <!--View Controller-->
         <scene sceneID="kod-zh-3gB">
             <objects>
-                <viewController storyboardIdentifier="LetsGetStartedViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pLQ-wr-xRW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LetsGetStartedViewController" id="pLQ-wr-xRW" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="40C-Pk-Adq"/>
                         <viewControllerLayoutGuide type="bottom" id="5vy-Mh-GEB"/>
@@ -287,7 +287,7 @@
         <!--Instructions View Controller-->
         <scene sceneID="Euy-5I-OcB">
             <objects>
-                <viewController storyboardIdentifier="InstructionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="GbX-H5-OCk" customClass="InstructionsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InstructionsViewController" id="GbX-H5-OCk" customClass="InstructionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hAE-gv-noU"/>
                         <viewControllerLayoutGuide type="bottom" id="7nv-5z-z2z"/>
@@ -333,7 +333,7 @@
         <!--Actions View Controller-->
         <scene sceneID="5Hp-z5-S2j">
             <objects>
-                <viewController storyboardIdentifier="ActionsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rWG-mI-mQv" customClass="ActionsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ActionsViewController" id="rWG-mI-mQv" customClass="ActionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="U3V-8N-YQf"/>
                         <viewControllerLayoutGuide type="bottom" id="aps-lC-zUk"/>
@@ -403,7 +403,7 @@
         <!--Results View Controller-->
         <scene sceneID="JcL-31-Ks9">
             <objects>
-                <viewController storyboardIdentifier="ResultsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="u9i-8i-Orv" customClass="ResultsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsViewController" id="u9i-8i-Orv" customClass="ResultsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pJb-35-T8S"/>
                         <viewControllerLayoutGuide type="bottom" id="Cmx-6E-Dkk"/>
@@ -413,33 +413,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Empty Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4X-yH-qy2">
-                                <rect key="frame" x="124.66666666666669" y="350" width="165" height="36"/>
+                                <rect key="frame" x="125" y="89" width="165" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.69019607843137254" green="0.37254901960784315" blue="0.16862745098039217" alpha="0.81798537230000001" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soil Type Based On Findings Below:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4S-Hj-Al3">
+                                <rect key="frame" x="25" y="139" width="364" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.27450980392156865" green="0.40392156862745099" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="c4o-Oj-WY8">
+                                <rect key="frame" x="20" y="167" width="374" height="561"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="E4X-yH-qy2" firstAttribute="centerY" secondItem="4vL-Jy-f4T" secondAttribute="centerY" id="Dvf-SG-Lnf"/>
-                            <constraint firstItem="E4X-yH-qy2" firstAttribute="centerX" secondItem="4vL-Jy-f4T" secondAttribute="centerX" id="KBy-TN-68z"/>
+                            <constraint firstItem="c4o-Oj-WY8" firstAttribute="top" secondItem="l4S-Hj-Al3" secondAttribute="bottom" constant="7.6666666666666572" id="3Cu-n7-Yd2"/>
+                            <constraint firstItem="l4S-Hj-Al3" firstAttribute="centerX" secondItem="E4X-yH-qy2" secondAttribute="centerX" id="Bqu-NW-zgQ"/>
+                            <constraint firstItem="E4X-yH-qy2" firstAttribute="top" secondItem="pJb-35-T8S" secondAttribute="bottom" constant="25" id="CM8-vb-aH0"/>
+                            <constraint firstItem="l4S-Hj-Al3" firstAttribute="top" secondItem="E4X-yH-qy2" secondAttribute="bottom" constant="14" id="Jc4-Yk-gKw"/>
+                            <constraint firstItem="Cmx-6E-Dkk" firstAttribute="top" secondItem="c4o-Oj-WY8" secondAttribute="bottom" constant="8" id="M7d-8J-ekN"/>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="E4X-yH-qy2" secondAttribute="trailing" constant="8" id="P6J-v5-ykW"/>
                             <constraint firstItem="E4X-yH-qy2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4vL-Jy-f4T" secondAttribute="leadingMargin" constant="8" id="Vnm-FA-ksl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l4S-Hj-Al3" secondAttribute="trailing" constant="5" id="eNL-fg-6hL"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="l4S-Hj-Al3" secondAttribute="leading" constant="-5" id="hNK-RM-hGj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="c4o-Oj-WY8" secondAttribute="trailing" id="wNf-LQ-IM2"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="c4o-Oj-WY8" secondAttribute="leading" id="x56-x7-JMd"/>
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="uiLabel" destination="E4X-yH-qy2" id="j0c-fF-Fkw"/>
+                        <outlet property="uiTextView" destination="c4o-Oj-WY8" id="63j-Pc-yqO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wKm-8S-euQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3815" y="6"/>
+            <point key="canvasLocation" x="3814.4927536231885" y="5.7065217391304355"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0aJ-sp-DEn">
             <objects>
-                <navigationController storyboardIdentifier="RootNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="x63-zy-oC3" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="RootNavigationController" id="x63-zy-oC3" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="PAw-vR-fZS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

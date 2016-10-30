@@ -10,9 +10,10 @@
 #import "BaseState.h"
 
 /**
- * Base View Controller for all state related view controllers.
+ * Base View Controller for all state related view controllers and conforms to UIAlertViewDelegate protocol.
  */
 @interface BaseViewController : UIViewController<UIAlertViewDelegate>
+
 /**
  * Property which holds the current state information.
  */
@@ -25,4 +26,9 @@
  * Returns a text aligned justified NSAttributedString.
  */
 -(NSAttributedString *) attributedStringForString:(NSString *) string;
+/**
+ * Do updates to user interface within this method.
+ */
+-(void) updateUI;
+
 @end
