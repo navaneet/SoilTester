@@ -74,7 +74,11 @@
 
 -(NSAttributedString *)attributedStringForString:(NSString *)string {
     NSMutableParagraphStyle *paragraphStyles = [[NSMutableParagraphStyle alloc] init];
-    paragraphStyles.alignment                = NSTextAlignmentJustified;
+    if ([string length] >30) {
+        paragraphStyles.alignment                = NSTextAlignmentJustified;
+    } else {
+        paragraphStyles.alignment                = NSTextAlignmentCenter;
+    }
     paragraphStyles.firstLineHeadIndent      = 0.001f;
     paragraphStyles.hyphenationFactor = 0.8f;
     NSString *stringTojustify                = string;
