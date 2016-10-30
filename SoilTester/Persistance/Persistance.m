@@ -7,6 +7,7 @@
 //
 
 #import "Persistance.h"
+#import "BaseState.h"
 
 /**
  * Key used for serializing state data.

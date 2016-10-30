@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseState.h"
+@class BaseState;
 
 /**
  * Class that manages persistance logic that manages data being stored using NSUserDefaults.
