@@ -22,7 +22,7 @@
 }
 
 -(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //Clear all data.
+    //Clear all saved data.
     [Persistance clearAllData];
     return YES;
 }
