@@ -15,8 +15,9 @@
 @interface Persistance : NSObject
 
 /**
- * Persists the state passed as argument to NSUserdefaults using the key ARCHIVER_KEY. Also please provide the previous state from which to 
- * persist to.
+ * Persists the state passed as argument to NSUserdefaults using the key ARCHIVER_KEY.
+ * @param state state to which to persist to.
+ * @param previousState previous state from which to persist from.
  */
 +(void) persistToState:(BaseState *) state fromState:(BaseState *) previousState;
 
