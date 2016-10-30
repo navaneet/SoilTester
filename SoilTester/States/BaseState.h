@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#define ARCHIVER_KEY @"states"
-
 /**
  * View Controller ids that are used to show the state information.
  */

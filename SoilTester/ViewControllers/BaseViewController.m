@@ -10,8 +10,6 @@
 #import "KneadState.h"
 #import "Persistance.h"
 
-#define RESTORATION_KEY_STATES @"states"
-
 @interface BaseViewController ()
 @end
 

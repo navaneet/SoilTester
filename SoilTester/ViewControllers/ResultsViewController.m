@@ -31,13 +31,16 @@
     NSString *soilType = [self.state labelString];
     [self.uiLabel setText: soilType];
     self.title = NSLocalizedString(@"Conclusion", nil);
-    NSString *tempString = @"";
-    NSMutableArray *array = [Persistance dataFromPersistanceStore];
-    for (NSData *data in array) {
-    BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:data];
-    tempString = [tempString stringByAppendingFormat:@"%@ : %@\n\n", [state labelString],[[state action] boolValue]?NSLocalizedString(@"Yes",nil):NSLocalizedString(@"No",nil)];
-    }
-    [self.uiTextView setText:tempString];
+    ResultsViewController *__weak weakSelf = self;
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSString *tempString = @"";
+        NSMutableArray *array = [Persistance dataFromPersistanceStore];
+        for (NSData *data in array) {
+            BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+            tempString = [tempString stringByAppendingFormat:@"%@ : %@\n\n", [state labelString],[[state action] boolValue]?NSLocalizedString(@"Yes",nil):NSLocalizedString(@"No",nil)];
+        }
+        [weakSelf.uiTextView setText:tempString];
+    });
 }
 
 @end

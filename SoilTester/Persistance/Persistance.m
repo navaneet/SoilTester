@@ -8,6 +8,11 @@
 
 #import "Persistance.h"
 
+/**
+ * Key used for persisting data.
+ */
+#define ARCHIVER_KEY @"states"
+
 @implementation Persistance
 
 +(void) persistToState:(BaseState *)state fromState:(BaseState *)previousState {
@@ -49,7 +54,7 @@
 
 +(NSMutableArray *)dataFromPersistanceStore {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    return [[defaults arrayForKey:@"states"] mutableCopy];
+    return [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
 }
 
 @end
