@@ -19,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //Adding border to uiTextView.
+    self.uiTextView.layer.borderColor = [[UIColor darkGrayColor] CGColor];
+    self.uiTextView.layer.borderWidth = 0.2f;
+    self.uiTextView.layer.cornerRadius = 4;
     [self updateUI];
 }
 
