@@ -9,7 +9,7 @@
 #import "Persistance.h"
 
 /**
- * Key used for persisting data.
+ * Key used for serializing state data.
  */
 #define ARCHIVER_KEY @"states"
 
