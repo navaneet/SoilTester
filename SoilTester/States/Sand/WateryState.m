@@ -11,7 +11,7 @@
 
 @implementation WateryState
 -(NSString *)labelString {
-    return NSLocalizedString(@"Add dry soil to soak up water", nil);
+    return NSLocalizedString(@"Add dry soil to soak up water.", nil);
 }
 
 -(NSString *)viewControllerId {
