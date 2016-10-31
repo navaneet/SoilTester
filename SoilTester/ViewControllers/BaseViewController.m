@@ -31,7 +31,7 @@
     if (!self.state) {
         self.state = [KneadState new];
     }
-    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemTrash target:self action:@selector(dismissCurrentViewControllerStack)];
+    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Home", nil) style:UIBarButtonItemStylePlain target:self action:@selector(dismissCurrentViewControllerStack)];
     self.navigationItem.rightBarButtonItem = rightButton;
 }
 
