@@ -1,5 +1,5 @@
-<map id="NonGrittyState.h" name="NonGrittyState.h">
-<area shape="rect" id="node2" href="$_non_gritty_clay_state_8h.html" title="NonGrittyClayState.h" alt="" coords="5,79,152,104"/>
-<area shape="rect" id="node3" href="$_non_gritty_clay_loam_state_8h.html" title="NonGrittyClayLoamState.h" alt="" coords="175,79,355,104"/>
-<area shape="rect" id="node4" href="$_non_gritty_loam_state_8h.html" title="NonGrittyLoamState.h" alt="" coords="379,79,533,104"/>
+<map id="SoilTester/SoilTester/States/SharedStates/NonGrittyState.h" name="SoilTester/SoilTester/States/SharedStates/NonGrittyState.h">
+<area shape="rect" id="node2" href="$_non_gritty_clay_state_8h.html" title="SoilTester/SoilTester\l/States/Clay/NonGrittyClayState.h" alt="" coords="5,112,227,151"/>
+<area shape="rect" id="node3" href="$_non_gritty_clay_loam_state_8h.html" title="SoilTester/SoilTester\l/States/ClayLoam/NonGrittyClay\lLoamState.h" alt="" coords="251,105,464,157"/>
+<area shape="rect" id="node4" href="$_non_gritty_loam_state_8h.html" title="SoilTester/SoilTester\l/States/Loam/NonGrittyLoamState.h" alt="" coords="488,112,724,151"/>
 </map>
