@@ -53,7 +53,10 @@
 
 +(void)clearAllData {
     //clear the standard defaults.
-    [[NSUserDefaults standardUserDefaults] removeObjectForKey:ARCHIVER_KEY];
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults removeObjectForKey:ARCHIVER_KEY];
+    [defaults synchronize];
+
 }
 
 +(NSMutableArray *)dataFromPersistanceStore {
