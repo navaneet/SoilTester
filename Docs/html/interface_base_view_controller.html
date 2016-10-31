@@ -96,11 +96,14 @@ Instance Methods</h2></td></tr>
 <tr class="memdesc:a984465999c841f18e753432d32af8dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes the appropriate view controller into the navigation controller for the provided state.  <a href="#a984465999c841f18e753432d32af8dc1">More...</a><br /></td></tr>
 <tr class="separator:a984465999c841f18e753432d32af8dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a594a67d15925b0d4e805270955f8e29d"><td class="memItemLeft" align="right" valign="top">(NSAttributedString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_base_view_controller.html#a594a67d15925b0d4e805270955f8e29d">justifiedAttributedStringForString:</a></td></tr>
-<tr class="memdesc:a594a67d15925b0d4e805270955f8e29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a text aligned NSTextAlignmentJustified NSAttributedString.  <a href="#a594a67d15925b0d4e805270955f8e29d">More...</a><br /></td></tr>
+<tr class="memdesc:a594a67d15925b0d4e805270955f8e29d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a NSAttributedString which is NSTextAlignmentJustified aligned for the passed in string.  <a href="#a594a67d15925b0d4e805270955f8e29d">More...</a><br /></td></tr>
 <tr class="separator:a594a67d15925b0d4e805270955f8e29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac030f1b80a57040fb05f91134a8401a7"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_base_view_controller.html#ac030f1b80a57040fb05f91134a8401a7">updateUI</a></td></tr>
 <tr class="memdesc:ac030f1b80a57040fb05f91134a8401a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do updates to user interface within this method.  <a href="#ac030f1b80a57040fb05f91134a8401a7">More...</a><br /></td></tr>
 <tr class="separator:ac030f1b80a57040fb05f91134a8401a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf92531b32800c7295d8408cfc06d24"><td class="memItemLeft" align="right" valign="top">(NSAttributedString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_base_view_controller.html#a3cf92531b32800c7295d8408cfc06d24">centeredAttributedStringForString:</a></td></tr>
+<tr class="memdesc:a3cf92531b32800c7295d8408cfc06d24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a NSAttributedString which is NSTextAlignmentCenter aligned for the passed in string.  <a href="#a3cf92531b32800c7295d8408cfc06d24">More...</a><br /></td></tr>
+<tr class="separator:a3cf92531b32800c7295d8408cfc06d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -113,6 +116,33 @@ Properties</h2></td></tr>
 
 <p>Definition at line <a class="el" href="_base_view_controller_8h_source.html#l00015">15</a> of file <a class="el" href="_base_view_controller_8h_source.html">BaseViewController.h</a>.</p>
 </div><h2 class="groupheader">Method Documentation</h2>
+<a id="a3cf92531b32800c7295d8408cfc06d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf92531b32800c7295d8408cfc06d24">&sect;&nbsp;</a></span>centeredAttributedStringForString:()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSAttributedString *) centeredAttributedStringForString: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)&#160;</td>
+          <td class="paramname"><em>string</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a NSAttributedString which is NSTextAlignmentCenter aligned for the passed in string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>strign to be converted to attributed string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>NSAttributedString </dd></dl>
+
+</div>
+</div>
 <a id="a594a67d15925b0d4e805270955f8e29d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a594a67d15925b0d4e805270955f8e29d">&sect;&nbsp;</a></span>justifiedAttributedStringForString:()</h2>
 
@@ -129,7 +159,14 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns a text aligned NSTextAlignmentJustified NSAttributedString. </p>
+<p>Returns a NSAttributedString which is NSTextAlignmentJustified aligned for the passed in string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">string</td><td>strign to be converted to attributed string. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>NSAttributedString </dd></dl>
 
 </div>
 </div>
@@ -150,6 +187,12 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Pushes the appropriate view controller into the navigation controller for the provided state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>state for which to perform view controller navigation operation. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -169,6 +212,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Do updates to user interface within this method. </p>
+<p>It's called after the app state restoraton process is finished. </p>
 
 </div>
 </div>

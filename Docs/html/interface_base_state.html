@@ -139,7 +139,7 @@ Instance Methods</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a1f69684d66578c8e8aa28e9e7493e85a"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_base_state.html#a1f69684d66578c8e8aa28e9e7493e85a">action</a></td></tr>
-<tr class="memdesc:a1f69684d66578c8e8aa28e9e7493e85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preserves action Yes or No for states related to <a class="el" href="interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a...">ActionsViewController</a>.  <a href="#a1f69684d66578c8e8aa28e9e7493e85a">More...</a><br /></td></tr>
+<tr class="memdesc:a1f69684d66578c8e8aa28e9e7493e85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preserves action Yes or No for states related to <a class="el" href="interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a...">ActionsViewController</a> to be used later for displaying steps of execution within <a class="el" href="interface_results_view_controller.html" title="View Controller that manages views related to showing of the final result to the user. ">ResultsViewController</a>.  <a href="#a1f69684d66578c8e8aa28e9e7493e85a">More...</a><br /></td></tr>
 <tr class="separator:a1f69684d66578c8e8aa28e9e7493e85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -163,6 +163,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Empty base class hook method intended to be overriden in the sub classes to provide the text for the UILabel. </p>
+<dl class="section return"><dt>Returns</dt><dd>NSString </dd></dl>
 
 </div>
 </div>
@@ -182,6 +183,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Provides the next state for action next. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. ">BaseState</a> </dd></dl>
 
 </div>
 </div>
@@ -201,6 +203,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Provides the next state for action no. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. ">BaseState</a> </dd></dl>
 
 </div>
 </div>
@@ -220,6 +223,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Provides the next state for action yes. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. ">BaseState</a> </dd></dl>
 
 </div>
 </div>
@@ -239,6 +243,7 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Storyboard id of the ViewController to be used for showing the state information. </p>
+<dl class="section return"><dt>Returns</dt><dd>NSString </dd></dl>
 
 </div>
 </div>
@@ -263,9 +268,9 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Preserves action Yes or No for states related to <a class="el" href="interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a...">ActionsViewController</a>. </p>
+<p>Preserves action Yes or No for states related to <a class="el" href="interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a...">ActionsViewController</a> to be used later for displaying steps of execution within <a class="el" href="interface_results_view_controller.html" title="View Controller that manages views related to showing of the final result to the user. ">ResultsViewController</a>. </p>
 
-<p>Definition at line <a class="el" href="_base_state_8h_source.html#l00047">47</a> of file <a class="el" href="_base_state_8h_source.html">BaseState.h</a>.</p>
+<p>Definition at line <a class="el" href="_base_state_8h_source.html#l00053">53</a> of file <a class="el" href="_base_state_8h_source.html">BaseState.h</a>.</p>
 
 </div>
 </div>

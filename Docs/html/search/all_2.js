@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['centeredattributedstringforstring_3a',['centeredAttributedStringForString:',['../interface_base_view_controller.html#a3cf92531b32800c7295d8408cfc06d24',1,'BaseViewController']]],
   ['clayloamstate',['ClayLoamState',['../interface_clay_loam_state.html',1,'']]],
   ['clayloamstate_2eh',['ClayLoamState.h',['../_clay_loam_state_8h.html',1,'']]],
   ['claystate',['ClayState',['../interface_clay_state.html',1,'']]],
