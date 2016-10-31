@@ -26,7 +26,7 @@
         BaseState *actualState = [previousState copy];
         actualState.action = state.action;
         NSData *data = [NSKeyedArchiver archivedDataWithRootObject:actualState];
-        //NSLog(@"inserted %@", actualState);
+       //NSLog(@"inserted %@", actualState);
         [array addObject:data];
         [defaults setObject:array forKey:ARCHIVER_KEY];
         [defaults synchronize];
@@ -35,11 +35,10 @@
 +(void)removeLastObjectFromPersistantStore {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSMutableArray *array = [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
-    NSData *lastObject = [array lastObject];
-    if (array !=nil & lastObject!=nil) {
-    //BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:lastObject];
+    if (array !=nil) {
+    //BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:[array lastObject]];
     //NSLog(@"removed %@", state);
-    [array removeObject:lastObject];
+    [array removeLastObject];
     [defaults setObject:array forKey:ARCHIVER_KEY];
     [defaults synchronize];
     }
