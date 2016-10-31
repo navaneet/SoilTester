@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['datafrompersistancestore',['dataFromPersistanceStore',['../interface_persistance.html#a202d5889e6500adbfc0f959cc1f7e50b',1,'Persistance']]]
+  ['justifiedattributedstringforstring_3a',['justifiedAttributedStringForString:',['../interface_base_view_controller.html#a594a67d15925b0d4e805270955f8e29d',1,'BaseViewController']]]
 ];

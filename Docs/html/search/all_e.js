@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['viewcontrollerid',['viewControllerId',['../interface_base_state.html#a9e46c6a4c53f46e12c1bf3e77e4a781a',1,'BaseState']]]
+  ['updateui',['updateUI',['../interface_base_view_controller.html#ac030f1b80a57040fb05f91134a8401a7',1,'BaseViewController']]]
 ];

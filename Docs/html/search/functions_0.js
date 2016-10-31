@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['attributedstringforstring_3a',['attributedStringForString:',['../interface_base_view_controller.html#a08216237a4e974807dee616b3356db81',1,'BaseViewController']]]
+  ['clearalldata',['clearAllData',['../interface_persistance.html#a93b5d34a5c74560daac4579c9a396a0c',1,'Persistance']]]
 ];

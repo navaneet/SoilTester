@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clearalldata',['clearAllData',['../interface_persistance.html#a93b5d34a5c74560daac4579c9a396a0c',1,'Persistance']]]
+  ['datafrompersistancestore',['dataFromPersistanceStore',['../interface_persistance.html#a202d5889e6500adbfc0f959cc1f7e50b',1,'Persistance']]]
 ];
