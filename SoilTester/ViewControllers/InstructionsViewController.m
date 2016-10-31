@@ -37,9 +37,7 @@
         if ([string length] >30) {
             attributedString = [self justifiedAttributedStringForString: string];
         } else {
-            NSMutableParagraphStyle *paragraphStyle = NSMutableParagraphStyle.new;
-            paragraphStyle.alignment                = NSTextAlignmentCenter;
-            attributedString = [NSAttributedString.alloc initWithString: string attributes: @{NSParagraphStyleAttributeName:paragraphStyle}];
+            attributedString = [self centeredAttributedStringForString:string];
         }
     [self.uiLabel setAttributedText:attributedString];
     self.title = NSLocalizedString(@"Instructions", nil);

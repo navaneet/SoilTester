@@ -33,12 +33,15 @@
     self.title = NSLocalizedString(@"Conclusion", nil);
     //Asynchronously update the uiTextView as reading all the states from persistence might take some time on older devices.
     ResultsViewController *__weak weakSelf = self;
+    //Doing time consumign task on a background queue.
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
         NSString *tempString = @"";
+        //Index for number of steps.
         int index = 1;
         NSMutableArray *array = [Persistance dataFromPersistanceStore];
         for (NSData *data in array) {
             BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+            //If action exists then show the action performed along with the labelString otherwise show only the labelString.
             if ([state action] ) {
                 tempString = [tempString stringByAppendingFormat:@"%d) %@ : %@\n\n",index,[state labelString],[[state action] boolValue]?NSLocalizedString(@"Yes",nil):NSLocalizedString(@"No",nil)];
             } else {
@@ -47,6 +50,7 @@
             index++;
         }
         dispatch_async(dispatch_get_main_queue(), ^{
+            //update uiTextView once done.
             [weakSelf.uiTextView setAttributedText:[weakSelf justifiedAttributedStringForString:tempString]];
             [weakSelf.view layoutIfNeeded];
         });

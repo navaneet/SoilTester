@@ -84,9 +84,16 @@
     paragraphStyles.alignment                = NSTextAlignmentJustified;
     paragraphStyles.firstLineHeadIndent      = 0.001f;
     paragraphStyles.hyphenationFactor = 0.8f;
-    NSString *stringTojustify                = string;
     NSDictionary *attributes                 = @{NSParagraphStyleAttributeName: paragraphStyles};
-    NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:stringTojustify attributes:attributes];
+    NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:string attributes:attributes];
+    return attributedString;
+}
+
+-(NSAttributedString *)centeredAttributedStringForString:(NSString *)string {
+    NSMutableParagraphStyle *paragraphStyles = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyles.alignment                = NSTextAlignmentCenter;
+    NSDictionary *attributes                 = @{NSParagraphStyleAttributeName: paragraphStyles};
+    NSAttributedString *attributedString     = [[NSAttributedString alloc] initWithString:string attributes:attributes];
     return attributedString;
 }
 

@@ -33,6 +33,7 @@
 
 /**
  * Returns a mutable array of persisted data if data exists in NSUserDefaults otherwise returns nil.
+ * @returns NSMutableArray
  */
 +(NSMutableArray *) dataFromPersistanceStore;
 
