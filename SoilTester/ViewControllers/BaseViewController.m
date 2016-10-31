@@ -53,7 +53,7 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     //Detects back pressed on view controller.
-    if ([self isMovingFromParentViewController]) {
+    if ([self isMovingFromParentViewController] | [self isBeingDismissed]) {
         //Remove the last persisted object.
         [Persistance removeLastObjectFromPersistantStore];
     }
