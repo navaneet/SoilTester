@@ -30,8 +30,16 @@
 }
 
 -(void)updateUI {
-    //setting justified alignment text for label.
-    NSAttributedString *attributedString = [self attributedStringForString:[self.state labelString]];
+    //Checking for string length, if length < 30 (smaller label strings), make it NSTextAlignmentCenter otherwise NSTextAlignmentJustified.
+    NSString *string  = [self.state labelString];
+    NSAttributedString *attributedString;
+        if ([string length] >30) {
+            attributedString = [self justifiedAttributedStringForString: string];
+        } else {
+            NSMutableParagraphStyle *paragraphStyle = NSMutableParagraphStyle.new;
+            paragraphStyle.alignment                = NSTextAlignmentCenter;
+            attributedString = [NSAttributedString.alloc initWithString: string attributes: @{NSParagraphStyleAttributeName:paragraphStyle}];
+        }
     [self.uiLabel setAttributedText:attributedString];
     self.title = NSLocalizedString(@"Instructions", nil);
 }

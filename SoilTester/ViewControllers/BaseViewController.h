@@ -23,9 +23,9 @@
  */
 -(void) performSeagueForState:(BaseState *) state;
 /**
- * Returns a text aligned NSTextAlignmentJustified NSAttributedString for string length > 30 otherwise NSTextAlignmentCenter.
+ * Returns a text aligned NSTextAlignmentJustified NSAttributedString.
  */
--(NSAttributedString *) attributedStringForString:(NSString *) string;
+-(NSAttributedString *) justifiedAttributedStringForString:(NSString *) string;
 /**
  * Do updates to user interface within this method.
  */

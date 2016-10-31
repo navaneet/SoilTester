@@ -51,7 +51,7 @@
     [self.uiSegmentedControl setTitleTextAttributes:attributes forState:UIControlStateNormal];
     
     //setting justified alignment text for label.
-    NSAttributedString *attributedString = [self attributedStringForString:[self.state labelString]];
+    NSAttributedString *attributedString = [self justifiedAttributedStringForString:[self.state labelString]];
     [self.uiLabel setAttributedText:attributedString];
     
     //remove the placeholder segments for segmented control and add segments as per the actions availabile from the provided state.
