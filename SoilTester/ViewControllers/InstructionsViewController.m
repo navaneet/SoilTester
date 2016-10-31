@@ -30,11 +30,12 @@
 }
 
 -(void)updateUI {
-    //Checking for string length, if length < 30 (smaller label strings), make it NSTextAlignmentCenter otherwise NSTextAlignmentJustified.
+    //Checking for string length, if length < 30 (smaller label strings), make it NSTextAlignmentCenter otherwise if length > 30 make it
+    //NSTextAlignmentJustified.
     NSString *string  = [self.state labelString];
     NSAttributedString *attributedString;
-    //edge case for very small instructions text.
-        if ([string length] >30) {
+    //edge case for very small instructions text which look odd when left/center aligned.
+        if ([string length] > 30) {
             attributedString = [self justifiedAttributedStringForString: string];
         } else {
             attributedString = [self centeredAttributedStringForString:string];
