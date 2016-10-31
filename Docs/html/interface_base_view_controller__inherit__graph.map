@@ -1,5 +1,0 @@
-<map id="BaseViewController" name="BaseViewController">
-<area shape="rect" id="node5" href="$interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a..." alt="" coords="5,152,157,177"/>
-<area shape="rect" id="node6" href="$interface_instructions_view_controller.html" title="View Controller that manages views related to showing of instructions involved in going to the next s..." alt="" coords="181,152,357,177"/>
-<area shape="rect" id="node7" href="$interface_results_view_controller.html" title="View Controller that manages views related to showing of the final result to the user. " alt="" coords="381,152,533,177"/>
-</map>

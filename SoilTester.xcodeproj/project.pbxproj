@@ -44,6 +44,7 @@
 		595FAA271DC39153006A8013 /* digSoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 595FAA241DC39153006A8013 /* digSoil.png */; };
 		595FAA281DC39153006A8013 /* rubSoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 595FAA251DC39153006A8013 /* rubSoil.png */; };
 		595FAA291DC39153006A8013 /* wetSoil.png in Resources */ = {isa = PBXBuildFile; fileRef = 595FAA261DC39153006A8013 /* wetSoil.png */; };
+		597B46081DC7E03200F35C1F /* SoilTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 597B46071DC7E03200F35C1F /* SoilTesterTests.m */; };
 		59843B271DC0041400E64DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B261DC0041400E64DEB /* main.m */; };
 		59843B2A1DC0041400E64DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59843B291DC0041400E64DEB /* AppDelegate.m */; };
 		59843B301DC0041400E64DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59843B2E1DC0041400E64DEB /* Main.storyboard */; };
@@ -56,6 +57,16 @@
 		59DEE2991DC3EF4C0001CC89 /* appIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DEE2981DC3EF4C0001CC89 /* appIconImage.png */; };
 		59F046941DC5733E000B1DA7 /* Persistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F046931DC5733E000B1DA7 /* Persistance.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		597B460A1DC7E03200F35C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59843B1A1DC0041300E64DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59843B211DC0041300E64DEB;
+			remoteInfo = SoilTester;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5908406B1DC2015C00D17852 /* BaseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseState.h; sourceTree = "<group>"; };
@@ -128,6 +139,9 @@
 		595FAA241DC39153006A8013 /* digSoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = digSoil.png; sourceTree = "<group>"; };
 		595FAA251DC39153006A8013 /* rubSoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubSoil.png; sourceTree = "<group>"; };
 		595FAA261DC39153006A8013 /* wetSoil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wetSoil.png; sourceTree = "<group>"; };
+		597B46051DC7E03200F35C1F /* SoilTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoilTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		597B46071DC7E03200F35C1F /* SoilTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoilTesterTests.m; sourceTree = "<group>"; };
+		597B46091DC7E03200F35C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59843B221DC0041400E64DEB /* SoilTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoilTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59843B261DC0041400E64DEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		59843B281DC0041400E64DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +164,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		597B46021DC7E03200F35C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59843B1F1DC0041300E64DEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,10 +362,20 @@
 			path = SiltyClay;
 			sourceTree = "<group>";
 		};
+		597B46061DC7E03200F35C1F /* SoilTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				597B46071DC7E03200F35C1F /* SoilTesterTests.m */,
+				597B46091DC7E03200F35C1F /* Info.plist */,
+			);
+			path = SoilTesterTests;
+			sourceTree = "<group>";
+		};
 		59843B191DC0041300E64DEB = {
 			isa = PBXGroup;
 			children = (
 				59843B241DC0041400E64DEB /* SoilTester */,
+				597B46061DC7E03200F35C1F /* SoilTesterTests */,
 				59843B231DC0041400E64DEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -353,6 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				59843B221DC0041400E64DEB /* SoilTester.app */,
+				597B46051DC7E03200F35C1F /* SoilTesterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +450,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		597B46041DC7E03200F35C1F /* SoilTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 597B460E1DC7E03200F35C1F /* Build configuration list for PBXNativeTarget "SoilTesterTests" */;
+			buildPhases = (
+				597B46011DC7E03200F35C1F /* Sources */,
+				597B46021DC7E03200F35C1F /* Frameworks */,
+				597B46031DC7E03200F35C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				597B460B1DC7E03200F35C1F /* PBXTargetDependency */,
+			);
+			name = SoilTesterTests;
+			productName = SoilTesterTests;
+			productReference = 597B46051DC7E03200F35C1F /* SoilTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		59843B211DC0041300E64DEB /* SoilTester */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59843B391DC0041400E64DEB /* Build configuration list for PBXNativeTarget "SoilTester" */;
@@ -444,6 +494,11 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Navaneet Sarma";
 				TargetAttributes = {
+					597B46041DC7E03200F35C1F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59843B211DC0041300E64DEB;
+					};
 					59843B211DC0041300E64DEB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 68LWC8F4JF;
@@ -465,11 +520,19 @@
 			projectRoot = "";
 			targets = (
 				59843B211DC0041300E64DEB /* SoilTester */,
+				597B46041DC7E03200F35C1F /* SoilTesterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		597B46031DC7E03200F35C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59843B201DC0041300E64DEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +551,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		597B46011DC7E03200F35C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597B46081DC7E03200F35C1F /* SoilTesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59843B1E1DC0041300E64DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -537,6 +608,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		597B460B1DC7E03200F35C1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59843B211DC0041300E64DEB /* SoilTester */;
+			targetProxy = 597B460A1DC7E03200F35C1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		59843B2E1DC0041400E64DEB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -557,6 +636,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		597B460C1DC7E03200F35C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoilTesterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navaneet.sarma.SoilTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoilTester.app/SoilTester";
+			};
+			name = Debug;
+		};
+		597B460D1DC7E03200F35C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoilTesterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navaneet.sarma.SoilTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoilTester.app/SoilTester";
+			};
+			name = Release;
+		};
 		59843B371DC0041400E64DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -678,6 +783,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		597B460E1DC7E03200F35C1F /* Build configuration list for PBXNativeTarget "SoilTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				597B460C1DC7E03200F35C1F /* Debug */,
+				597B460D1DC7E03200F35C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		59843B1D1DC0041300E64DEB /* Build configuration list for PBXProject "SoilTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

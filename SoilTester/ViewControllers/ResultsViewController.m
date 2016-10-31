@@ -38,7 +38,7 @@
         NSString *tempString = @"";
         //Index for number of steps.
         int index = 1;
-        NSMutableArray *array = [Persistance dataFromPersistanceStore];
+        NSArray *array = [Persistance dataFromPersistanceStore];
         for (NSData *data in array) {
             BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:data];
             //If action exists then show the action performed along with the labelString otherwise show only the labelString.

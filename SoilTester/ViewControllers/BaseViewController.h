@@ -10,7 +10,8 @@
 #import "BaseState.h"
 
 /**
- * Base View Controller for all state related view controllers and conforms to UIAlertViewDelegate and UIStateRestoring protocols.
+ * BaseViewController is a base view controller for all the state related view controllers and it conforms to uialertviewdelegate and
+ * uistaterestoring protocols.
  */
 @interface BaseViewController : UIViewController<UIAlertViewDelegate,UIStateRestoring>
 

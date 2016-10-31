@@ -10,7 +10,7 @@
 @class BaseState;
 
 /**
- * Class that manages persistance logic that manages data being stored using NSUserDefaults.
+ * Class that manages persistance logic that manages the data being serialized using NSUserDefaults.
  */
 @interface Persistance : NSObject
 
@@ -18,29 +18,33 @@
  * Serializes the state passed as argument using NSUserdefaults with the key ARCHIVER_KEY.
  * @param state state to which to persist to.
  * @param previousState previous state from which to persist from.
+ * @returns BOOL YES if the data was saved successfully to disk, otherwise NO.
  */
-+(void) persistToState:(BaseState *) state fromState:(BaseState *) previousState;
++(BOOL) persistToState:(BaseState *) state fromState:(BaseState *) previousState;
 
 /**
- * Removes the last persisted state object from NSUserDefaults.
+ * Removes the last persisted state object from NSUserDefaults for the key ARCHIVER_KEY.
+ * @returns BOOL YES if the operation was successful, otherwise NO.
  */
-+(void) removeLastObjectFromPersistantStore;
++(BOOL) removeLastObjectFromPersistantStore;
 
 /**
  * Clears all saved state objects from NSUserDefaults.
+ * @returns BOOL YES if the operation was successful, otherwise NO.
  */
-+(void) clearAllData;
++(BOOL) clearAllData;
 
 /**
- * Returns a mutable array of persisted data if data exists in NSUserDefaults otherwise returns nil.
- * @returns NSMutableArray
+ * Returns an array of persisted data if data exists for the key ARCHIVER_KEY in NSUserDefaults otherwise returns nil.
+ * @returns NSArray An array of state objects stored as NSData objects which need to be unarchived using NSKeyedUnarchiver.
  */
-+(NSMutableArray *) dataFromPersistanceStore;
++(NSArray *) dataFromPersistanceStore;
 
 /**
  * Serializes an array of states stored as NSData objects using NSUserdefaults.
  * @param array array of states with NSData Objects.
+ * @returns BOOL YES if the data was saved successfully to disk, otherwise NO.
  */
-+(void) persistsStateArray:(NSMutableArray *) array;
++(BOOL) persistStateArray:(NSArray *) array;
 
 @end

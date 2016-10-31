@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * Shared class for gritty state which derives from BaseState.
+ */
 @interface GrittyState : BaseState
 
 @end

@@ -1,6 +1,0 @@
-<map id="SmoothState" name="SmoothState">
-<area shape="rect" id="node5" href="$interface_smooth_silt_loam_state.html" title="SmoothSiltLoamState" alt="" coords="5,225,156,251"/>
-<area shape="rect" id="node6" href="$interface_smooth_silty_clay_loam_state.html" title="SmoothSiltyClayLoamState" alt="" coords="179,225,363,251"/>
-<area shape="rect" id="node7" href="$interface_smooth_silty_clay_state.html" title="SmoothSiltyClayState" alt="" coords="387,225,537,251"/>
-<area shape="rect" id="node2" href="$interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. " alt="" coords="230,79,313,104"/>
-</map>

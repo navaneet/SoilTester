@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * Shared class for smooth state which derives from BaseState.
+ */
 @interface SmoothState : BaseState
 
 @end

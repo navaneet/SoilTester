@@ -113,8 +113,8 @@
 - (void)decodeRestorableStateWithCoder:(NSCoder *)coder {
     //decode app state for state restoration.
     self.state = [coder decodeObjectForKey:RESTORATION_KEY_STATES];
-    NSMutableArray *array = [coder decodeObjectForKey:RESTORATION_KEY_STATE_SERIALIZED];
-    [Persistance persistsStateArray:array];
+    NSArray *array = [coder decodeObjectForKey:RESTORATION_KEY_STATE_SERIALIZED];
+    [Persistance persistStateArray:array];
     [super decodeRestorableStateWithCoder:coder];
 }
 

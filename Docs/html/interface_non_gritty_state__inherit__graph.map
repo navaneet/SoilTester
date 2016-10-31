@@ -1,6 +1,0 @@
-<map id="NonGrittyState" name="NonGrittyState">
-<area shape="rect" id="node5" href="$interface_non_gritty_clay_loam_state.html" title="NonGrittyClayLoamState" alt="" coords="5,225,174,251"/>
-<area shape="rect" id="node6" href="$interface_non_gritty_clay_state.html" title="NonGrittyClayState" alt="" coords="198,225,333,251"/>
-<area shape="rect" id="node7" href="$interface_non_gritty_loam_state.html" title="NonGrittyLoamState" alt="" coords="357,225,499,251"/>
-<area shape="rect" id="node2" href="$interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. " alt="" coords="224,79,307,104"/>
-</map>

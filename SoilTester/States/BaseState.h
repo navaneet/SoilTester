@@ -16,7 +16,7 @@
 #define ID_ResultsViewController      @"ResultsViewController"
 
 /**
- * State Class for the FSM which conforms to NSCoding protocol.
+ * BaseState is a base class for all the states and it conforms to nscoding protocol.
  */
 @interface BaseState : NSObject<NSCoding>
 

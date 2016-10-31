@@ -1,4 +1,0 @@
-<map id="ActionsViewController" name="ActionsViewController">
-<area shape="rect" id="node2" href="$interface_base_view_controller.html" title="Base View Controller for all state related view controllers and conforms to UIAlertViewDelegate and U..." alt="" coords="247,167,386,192"/>
-<area shape="rect" id="node6" href="$interface_base_state.html" title="State Class for the FSM which conforms to NSCoding protocol. " alt="" coords="496,80,579,105"/>
-</map>

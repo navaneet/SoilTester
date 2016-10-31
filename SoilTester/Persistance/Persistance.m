@@ -16,7 +16,7 @@
 
 @implementation Persistance
 
-+(void) persistToState:(BaseState *)state fromState:(BaseState *)previousState {
++(BOOL) persistToState:(BaseState *)state fromState:(BaseState *)previousState {
     //persist viewcontroller states for actions performed.
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         NSMutableArray *array = [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
@@ -29,10 +29,10 @@
        //NSLog(@"inserted %@", actualState);
         [array addObject:data];
         [defaults setObject:array forKey:ARCHIVER_KEY];
-        [defaults synchronize];
+        return [defaults synchronize];
 }
 
-+(void)removeLastObjectFromPersistantStore {
++(BOOL)removeLastObjectFromPersistantStore {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSMutableArray *array = [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
     if (array !=nil) {
@@ -40,25 +40,26 @@
     //NSLog(@"removed %@", state);
     [array removeLastObject];
     [defaults setObject:array forKey:ARCHIVER_KEY];
-    [defaults synchronize];
+    return [defaults synchronize];
     }
+    return NO;
 }
 
-+(void)persistsStateArray:(NSMutableArray *)array {
++(BOOL)persistStateArray:(NSArray *)array {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults setObject:array forKey:ARCHIVER_KEY];
-    [defaults synchronize];
+    return [defaults synchronize];
 }
 
-+(void)clearAllData {
++(BOOL)clearAllData {
     //clear the standard defaults.
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     [defaults removeObjectForKey:ARCHIVER_KEY];
-    [defaults synchronize];
+    return [defaults synchronize];
 
 }
 
-+(NSMutableArray *)dataFromPersistanceStore {
++(NSArray *)dataFromPersistanceStore {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     return [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
 }
