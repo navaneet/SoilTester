@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * State class derived from BaseState that handles state for ClayLoam soil type.
+ */
 @interface ClayLoamState : BaseState
 
 @end

@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * State class derived from BaseState that handles state for the dryness factor of the soil.
+ */
 @interface DryState : BaseState
 
 @end

@@ -9,7 +9,8 @@
 #import "BaseViewController.h"
 
 /**
- * View Controller that manages views related to showing of action items like segmented controls which are involved in going to the next state.
+ * ViewController derived from BaseViewController that manages views related to showing of action items like segmented controls which are involved
+ * in going to the next state.
  */
 @interface ActionsViewController : BaseViewController
 @end

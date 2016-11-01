@@ -8,6 +8,9 @@
 
 #import "GrittyState.h"
 
+/**
+ * State class derived from GrittyState that handles state for grittiness of SandyLoam soil type.
+ */
 @interface GrittySandyLoamState : GrittyState
 
 @end

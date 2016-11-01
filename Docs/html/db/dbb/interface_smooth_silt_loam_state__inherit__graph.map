@@ -1,4 +1,4 @@
 <map id="SmoothSiltLoamState" name="SmoothSiltLoamState">
-<area shape="rect" id="node2" href="$d6/d74/interface_smooth_state.html" title="Shared class for smooth state which derives from BaseState. " alt="" coords="51,152,150,177"/>
+<area shape="rect" id="node2" href="$d6/d74/interface_smooth_state.html" title="Shared class for smooth state which is derived from BaseState. " alt="" coords="51,152,150,177"/>
 <area shape="rect" id="node3" href="$df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. " alt="" coords="59,79,142,104"/>
 </map>

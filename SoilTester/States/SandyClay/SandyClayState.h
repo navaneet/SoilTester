@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * State class derived from BaseState that handles state for SandyClay soil type.
+ */
 @interface SandyClayState : BaseState
 
 @end

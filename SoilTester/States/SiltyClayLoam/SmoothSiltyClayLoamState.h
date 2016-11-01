@@ -8,6 +8,9 @@
 
 #import "SmoothState.h"
 
+/**
+ * State class derived from SmoothState that handles state for checking smoothness of SiltyClayLoam soil type.
+ */
 @interface SmoothSiltyClayLoamState : SmoothState
 
 @end

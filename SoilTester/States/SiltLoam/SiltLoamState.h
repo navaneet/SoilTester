@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * State class derived from BaseState that handles state for SiltyLoam soil type.
+ */
 @interface SiltLoamState : BaseState
 
 @end

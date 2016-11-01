@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * State class derived from BaseState that handles state for the instructions provided to the user for forming a ribbon with the soil.
+ */
 @interface CreateRibbonState : BaseState
 
 @end

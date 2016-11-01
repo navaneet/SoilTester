@@ -8,6 +8,9 @@
 
 #import "NonGrittyState.h"
 
+/**
+ * State class derived from NonGrittyState that handles state for checking non-grittiness of ClayLoam soil type.
+ */
 @interface NonGrittyClayLoamState : NonGrittyState
 
 @end

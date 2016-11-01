@@ -66,7 +66,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Shared class for gritty state which derives from <a class="el" href="../../df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. ">BaseState</a>.  
+<p>Shared class for gritty state which is derived from <a class="el" href="../../df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. ">BaseState</a>.  
  <a href="../../d6/dd5/interface_gritty_state.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="../../d0/d38/_gritty_state_8h_source.html">GrittyState.h</a>&gt;</code></p>
@@ -75,9 +75,9 @@ Inheritance diagram for GrittyState:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d60/interface_gritty_state__inherit__graph.png" border="0" usemap="#_gritty_state_inherit__map" alt="Inheritance graph"/></div>
 <map name="_gritty_state_inherit__map" id="_gritty_state_inherit__map">
-<area shape="rect" id="node5" href="../../d5/d0a/interface_gritty_sandy_clay_loam_state.html" title="GrittySandyClayLoamState" alt="" coords="5,225,187,251"/>
-<area shape="rect" id="node6" href="../../d1/db8/interface_gritty_sandy_clay_state.html" title="GrittySandyClayState" alt="" coords="211,225,360,251"/>
-<area shape="rect" id="node7" href="../../d2/d46/interface_gritty_sandy_loam_state.html" title="GrittySandyLoamState" alt="" coords="384,225,539,251"/>
+<area shape="rect" id="node5" href="../../d5/d0a/interface_gritty_sandy_clay_loam_state.html" title="State class derived from GrittyState that handles state for checking grittiness of SandyClayLoam soil..." alt="" coords="5,225,187,251"/>
+<area shape="rect" id="node6" href="../../d1/db8/interface_gritty_sandy_clay_state.html" title="State class derived from GrittyState that handles state for checking grittiness of SandyClay soil typ..." alt="" coords="211,225,360,251"/>
+<area shape="rect" id="node7" href="../../d2/d46/interface_gritty_sandy_loam_state.html" title="State class derived from GrittyState that handles state for grittiness of SandyLoam soil type..." alt="" coords="384,225,539,251"/>
 <area shape="rect" id="node2" href="../../df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. " alt="" coords="244,79,327,104"/>
 </map>
 <center><span class="legend">[<a href="../../graph_legend.html">legend</a>]</span></center></div>
@@ -110,11 +110,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a9e46c6a4c53f46e12c1bf3e77e4a781a inherit pub_methods_interface_base_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_base_state"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_base_state')"><img src="../../closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="../../df/ddf/interface_base_state.html">BaseState</a></td></tr>
 <tr class="memitem:a1f69684d66578c8e8aa28e9e7493e85a inherit properties_interface_base_state"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/ddf/interface_base_state.html#a1f69684d66578c8e8aa28e9e7493e85a">action</a></td></tr>
-<tr class="memdesc:a1f69684d66578c8e8aa28e9e7493e85a inherit properties_interface_base_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preserves action Yes or No for states related to <a class="el" href="../../d6/dff/interface_actions_view_controller.html" title="View Controller that manages views related to showing of action items like segmented controls which a...">ActionsViewController</a> to be used later for displaying steps of execution within <a class="el" href="../../d6/db9/interface_results_view_controller.html" title="View Controller that manages views related to showing of the final result to the user. ">ResultsViewController</a>.  <a href="../../df/ddf/interface_base_state.html#a1f69684d66578c8e8aa28e9e7493e85a">More...</a><br /></td></tr>
+<tr class="memdesc:a1f69684d66578c8e8aa28e9e7493e85a inherit properties_interface_base_state"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preserves action Yes or No for states related to <a class="el" href="../../d6/dff/interface_actions_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of action items ...">ActionsViewController</a> to be used later for displaying steps of execution within <a class="el" href="../../d6/db9/interface_results_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of the final res...">ResultsViewController</a>.  <a href="../../df/ddf/interface_base_state.html#a1f69684d66578c8e8aa28e9e7493e85a">More...</a><br /></td></tr>
 <tr class="separator:a1f69684d66578c8e8aa28e9e7493e85a inherit properties_interface_base_state"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Shared class for gritty state which derives from <a class="el" href="../../df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. ">BaseState</a>. </p>
+<div class="textblock"><p>Shared class for gritty state which is derived from <a class="el" href="../../df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. ">BaseState</a>. </p>
+<p>It handles the state for checking the grittiness factor of the soil. </p>
 
 <p>Definition at line <a class="el" href="../../d0/d38/_gritty_state_8h_source.html#l00014">14</a> of file <a class="el" href="../../d0/d38/_gritty_state_8h_source.html">GrittyState.h</a>.</p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>

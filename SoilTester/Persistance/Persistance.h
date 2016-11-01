@@ -10,7 +10,7 @@
 @class BaseState;
 
 /**
- * Class that manages persistance logic that manages the data being serialized using NSUserDefaults.
+ * Class that manages persistance logic that manages the data being serialized and de-serialized to NSUserDefaults.
  */
 @interface Persistance : NSObject
 
@@ -41,7 +41,7 @@
 +(NSArray *) dataFromPersistanceStore;
 
 /**
- * Serializes an array of states stored as NSData objects using NSUserdefaults.
+ * Serializes an array of states stored as NSData objects using NSKeyedArchiver to NSUserdefaults.
  * @param array array of states with NSData Objects.
  * @returns BOOL YES if the data was saved successfully to disk, otherwise NO.
  */

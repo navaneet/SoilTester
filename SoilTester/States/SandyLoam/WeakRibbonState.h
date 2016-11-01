@@ -8,6 +8,9 @@
 
 #import "BaseState.h"
 
+/**
+ * State class derived from BaseState that handles state for checking the weak malleability factor of the soil.
+ */
 @interface WeakRibbonState : BaseState
 
 @end
