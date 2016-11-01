@@ -21,7 +21,7 @@
 @interface BaseState : NSObject<NSCoding>
 
 /**
- * Empty base class hook method intended to be overriden in the sub classes to provide the text for the UILabel.
+ * Empty base class hook method intended to be overridden in the sub classes to provide the text for the UILabel.
  * @returns NSString
  */
 -(NSString *) labelString;

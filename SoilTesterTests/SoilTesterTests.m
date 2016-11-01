@@ -9,7 +9,7 @@
 #import <XCTest/XCTest.h>
 #import "KneadState.h"
 #import "SqueezeIntoBallState.h"
-#import "Persistance.h"
+#import "Persistence.h"
 
 @interface SoilTesterTests : XCTestCase
 
@@ -31,14 +31,14 @@
     // Testing Persistance.
     SqueezeIntoBallState *squeezeState = [SqueezeIntoBallState new];
     KneadState *kneadState = [KneadState new];
-    XCTAssertTrue([Persistance persistToState:squeezeState fromState:kneadState],@"State persistence failed");
+    XCTAssertTrue([Persistence persistToState:squeezeState fromState:kneadState],@"State persistence failed");
     
     //test if persisted data is being read correctly.
-    NSArray *array = [Persistance dataFromPersistanceStore];
+    NSArray *array = [Persistence dataFromPersistanceStore];
     XCTAssertNotNil(array,@"Data read from persistance store is nil");
     
     //test for clearing persisted data.
-    XCTAssertTrue([Persistance clearAllData],@"Clearing data from persistence store failed");
+    XCTAssertTrue([Persistence clearAllData],@"Clearing data from persistence store failed");
 }
 
 @end

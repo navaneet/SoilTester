@@ -12,7 +12,7 @@
 /**
  * Class that manages persistance logic that manages the data being serialized and de-serialized to NSUserDefaults.
  */
-@interface Persistance : NSObject
+@interface Persistence : NSObject
 
 /**
  * Serializes the state passed as argument using NSUserdefaults with the key ARCHIVER_KEY.

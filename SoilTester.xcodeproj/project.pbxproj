@@ -55,7 +55,7 @@
 		59DEE2941DC3EAEF0001CC89 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE28F1DC3EAEF0001CC89 /* InstructionsViewController.m */; };
 		59DEE2951DC3EAEF0001CC89 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */; };
 		59DEE2991DC3EF4C0001CC89 /* appIconImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DEE2981DC3EF4C0001CC89 /* appIconImage.png */; };
-		59F046941DC5733E000B1DA7 /* Persistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F046931DC5733E000B1DA7 /* Persistance.m */; };
+		59F046941DC5733E000B1DA7 /* Persistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F046931DC5733E000B1DA7 /* Persistence.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,8 +159,8 @@
 		59DEE2901DC3EAEF0001CC89 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
 		59DEE2911DC3EAEF0001CC89 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 		59DEE2981DC3EF4C0001CC89 /* appIconImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIconImage.png; sourceTree = "<group>"; };
-		59F046921DC5733E000B1DA7 /* Persistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persistance.h; sourceTree = "<group>"; };
-		59F046931DC5733E000B1DA7 /* Persistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persistance.m; sourceTree = "<group>"; };
+		59F046921DC5733E000B1DA7 /* Persistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persistence.h; sourceTree = "<group>"; };
+		59F046931DC5733E000B1DA7 /* Persistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persistence.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,8 +441,8 @@
 		59F046911DC5731B000B1DA7 /* Persistance */ = {
 			isa = PBXGroup;
 			children = (
-				59F046921DC5733E000B1DA7 /* Persistance.h */,
-				59F046931DC5733E000B1DA7 /* Persistance.m */,
+				59F046921DC5733E000B1DA7 /* Persistence.h */,
+				59F046931DC5733E000B1DA7 /* Persistence.m */,
 			);
 			path = Persistance;
 			sourceTree = "<group>";
@@ -588,7 +588,7 @@
 				595FA9C61DC33DE6006A8013 /* WateryState.m in Sources */,
 				595FAA201DC38541006A8013 /* SiltyClayState.m in Sources */,
 				595FA9ED1DC36E55006A8013 /* GrittySandyClayLoamState.m in Sources */,
-				59F046941DC5733E000B1DA7 /* Persistance.m in Sources */,
+				59F046941DC5733E000B1DA7 /* Persistence.m in Sources */,
 				595FAA001DC37A4F006A8013 /* NonGrittyLoamState.m in Sources */,
 				595FAA0E1DC37C80006A8013 /* NonGrittyClayState.m in Sources */,
 				595FAA151DC383BA006A8013 /* SmoothSiltLoamState.m in Sources */,
@@ -790,6 +790,7 @@
 				597B460D1DC7E03200F35C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59843B1D1DC0041300E64DEB /* Build configuration list for PBXProject "SoilTester" */ = {
 			isa = XCConfigurationList;

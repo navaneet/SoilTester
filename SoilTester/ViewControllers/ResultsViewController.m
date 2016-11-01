@@ -7,7 +7,7 @@
 //
 
 #import "ResultsViewController.h"
-#import "Persistance.h"
+#import "Persistence.h"
 
 @interface ResultsViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *uiLabel;
@@ -31,6 +31,7 @@
     NSString *soilType = [self.state labelString];
     [self.uiLabel setText: soilType];
     self.title = NSLocalizedString(@"Conclusion", nil);
+    
     //Asynchronously update the uiTextView as reading all the states from persistence might take some time on older devices.
     ResultsViewController *__weak weakSelf = self;
     //Doing time consumign task on a background queue.
@@ -38,7 +39,7 @@
         NSString *tempString = @"";
         //Index for number of steps.
         int index = 1;
-        NSArray *array = [Persistance dataFromPersistanceStore];
+        NSArray *array = [Persistence dataFromPersistanceStore];
         for (NSData *data in array) {
             BaseState *state = [NSKeyedUnarchiver unarchiveObjectWithData:data];
             //If action exists then show the action performed along with the labelString otherwise show only the labelString.

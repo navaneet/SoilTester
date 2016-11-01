@@ -8,7 +8,7 @@
 
 #import "BaseViewController.h"
 #import "KneadState.h"
-#import "Persistance.h"
+#import "Persistence.h"
 
 /**
  * Key used for preserving restoration state for runtime state objects.
@@ -44,7 +44,7 @@
         vc.state = state;
         [self.navigationController pushViewController:vc animated:YES];
         //persist Action states to show in ResultsViewController.
-        [Persistance persistToState:state fromState:self.state];
+        [Persistence persistToState:state fromState:self.state];
     }else {
         NSLog(@"View Controller Id not specified for state: %@", state);
     }
@@ -55,7 +55,7 @@
     //Detects back pressed on view controller.
     if ([self isMovingFromParentViewController] | [self isBeingDismissed]) {
         //Remove the last persisted object.
-        [Persistance removeLastObjectFromPersistantStore];
+        [Persistence removeLastObjectFromPersistantStore];
     }
 }
 
@@ -75,7 +75,7 @@
     if (buttonIndex != [alertView cancelButtonIndex]) {
         //pops the navigation stack.
         [self.navigationController popToRootViewControllerAnimated:YES];
-        [Persistance clearAllData];
+        [Persistence clearAllData];
     }
 }
 
@@ -103,7 +103,7 @@
 - (void)encodeRestorableStateWithCoder:(NSCoder *)coder {
     //encode app state for state restoration.
     [coder encodeObject:self.state forKey:RESTORATION_KEY_STATES];
-    [coder encodeObject:[Persistance dataFromPersistanceStore] forKey:RESTORATION_KEY_STATE_SERIALIZED];
+    [coder encodeObject:[Persistence dataFromPersistanceStore] forKey:RESTORATION_KEY_STATE_SERIALIZED];
     [super encodeRestorableStateWithCoder:coder];
 }
 
@@ -114,7 +114,7 @@
     //decode app state for state restoration.
     self.state = [coder decodeObjectForKey:RESTORATION_KEY_STATES];
     NSArray *array = [coder decodeObjectForKey:RESTORATION_KEY_STATE_SERIALIZED];
-    [Persistance persistStateArray:array];
+    [Persistence persistStateArray:array];
     [super decodeRestorableStateWithCoder:coder];
 }
 

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "Persistance.h"
+#import "Persistence.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +23,7 @@
 
 -(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //Clear all saved data.
-    [Persistance clearAllData];
+    [Persistence clearAllData];
     return YES;
 }
 

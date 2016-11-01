@@ -6,7 +6,7 @@
 //  Copyright © 2016 Navaneet Sarma. All rights reserved.
 //
 
-#import "Persistance.h"
+#import "Persistence.h"
 #import "BaseState.h"
 
 /**
@@ -14,7 +14,7 @@
  */
 #define ARCHIVER_KEY @"states"
 
-@implementation Persistance
+@implementation Persistence
 
 +(BOOL) persistToState:(BaseState *)state fromState:(BaseState *)previousState {
     //persist viewcontroller states for actions performed.
