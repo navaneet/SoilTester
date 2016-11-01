@@ -9,7 +9,7 @@
 #import "BaseState.h"
 
 /**
- * Shared class for non gritty state which derives from BaseState.
+ * Shared class for non gritty state which is derived from BaseState. It handles the state for non gritty soil.
  */
 @interface NonGrittyState : BaseState
 
