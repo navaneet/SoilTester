@@ -103,7 +103,7 @@
 - (void)encodeRestorableStateWithCoder:(NSCoder *)coder {
     //encode app state for state restoration.
     [coder encodeObject:self.state forKey:RESTORATION_KEY_STATES];
-    [coder encodeObject:[Persistence dataFromPersistanceStore] forKey:RESTORATION_KEY_STATE_SERIALIZED];
+    [coder encodeObject:[Persistence dataFromPersistenceStore] forKey:RESTORATION_KEY_STATE_SERIALIZED];
     [super encodeRestorableStateWithCoder:coder];
 }
 

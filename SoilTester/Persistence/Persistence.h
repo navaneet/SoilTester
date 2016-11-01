@@ -1,5 +1,5 @@
 //
-//  Persistance.h
+//  Persistence.h
 //  SoilTester
 //
 //  Created by Navaneet Sarma on 30/10/16.
@@ -10,7 +10,7 @@
 @class BaseState;
 
 /**
- * Class that manages persistance logic that manages the data being serialized and de-serialized to NSUserDefaults.
+ * Class that manages persistence logic that manages the data being serialized and de-serialized to NSUserDefaults.
  */
 @interface Persistence : NSObject
 
@@ -38,7 +38,7 @@
  * Returns an array of persisted data if data exists for the key ARCHIVER_KEY in NSUserDefaults otherwise returns nil.
  * @returns NSArray An array of state objects stored as NSData objects which need to be unarchived using NSKeyedUnarchiver.
  */
-+(NSArray *) dataFromPersistanceStore;
++(NSArray *) dataFromPersistenceStore;
 
 /**
  * Serializes an array of states stored as NSData objects using NSKeyedArchiver to NSUserdefaults.

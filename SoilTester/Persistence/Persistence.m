@@ -1,5 +1,5 @@
 //
-//  Persistance.m
+//  Persistence.m
 //  SoilTester
 //
 //  Created by Navaneet Sarma on 30/10/16.
@@ -59,7 +59,7 @@
 
 }
 
-+(NSArray *)dataFromPersistanceStore {
++(NSArray *)dataFromPersistenceStore {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     return [[defaults arrayForKey:ARCHIVER_KEY] mutableCopy];
 }

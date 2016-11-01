@@ -28,14 +28,14 @@
 }
 
 - (void)testPersistence {
-    // Testing Persistance.
+    // Testing Persistence.
     SqueezeIntoBallState *squeezeState = [SqueezeIntoBallState new];
     KneadState *kneadState = [KneadState new];
     XCTAssertTrue([Persistence persistToState:squeezeState fromState:kneadState],@"State persistence failed");
     
     //test if persisted data is being read correctly.
-    NSArray *array = [Persistence dataFromPersistanceStore];
-    XCTAssertNotNil(array,@"Data read from persistance store is nil");
+    NSArray *array = [Persistence dataFromPersistenceStore];
+    XCTAssertNotNil(array,@"Data read from persistence store is nil");
     
     //test for clearing persisted data.
     XCTAssertTrue([Persistence clearAllData],@"Clearing data from persistence store failed");
