@@ -1,4 +1,0 @@
-<map id="NonGrittyClayState" name="NonGrittyClayState">
-<area shape="rect" id="node2" href="$d1/dfe/interface_non_gritty_state.html" title="Shared class for non&#45;gritty state which is derived from BaseState. " alt="" coords="46,152,155,177"/>
-<area shape="rect" id="node3" href="$df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. " alt="" coords="59,79,142,104"/>
-</map>

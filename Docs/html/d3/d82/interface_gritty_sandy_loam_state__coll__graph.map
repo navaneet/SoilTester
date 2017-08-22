@@ -1,4 +1,0 @@
-<map id="GrittySandyLoamState" name="GrittySandyLoamState">
-<area shape="rect" id="node2" href="$d6/dd5/interface_gritty_state.html" title="Shared class for gritty state which is derived from BaseState. " alt="" coords="58,152,143,177"/>
-<area shape="rect" id="node3" href="$df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. " alt="" coords="59,79,142,104"/>
-</map>

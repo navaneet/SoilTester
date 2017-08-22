@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d7/db0/interface_base_view_controller.html" title="BaseViewController is a base ViewController for all the state related ViewControllers and it conforms..." alt="" coords="213,55,334,80"/>
-<area shape="rect" id="node3" href="$d6/dff/interface_actions_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of action items ..." alt="" coords="394,5,546,31"/>
-<area shape="rect" id="node4" href="$d7/d37/interface_instructions_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of instructions ..." alt="" coords="382,55,558,80"/>
-<area shape="rect" id="node5" href="$d6/db9/interface_results_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of the final res..." alt="" coords="394,104,546,129"/>
-</map>

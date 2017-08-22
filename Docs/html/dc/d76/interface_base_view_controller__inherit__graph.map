@@ -1,5 +1,0 @@
-<map id="BaseViewController" name="BaseViewController">
-<area shape="rect" id="node5" href="$d6/dff/interface_actions_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of action items ..." alt="" coords="5,152,157,177"/>
-<area shape="rect" id="node6" href="$d7/d37/interface_instructions_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of instructions ..." alt="" coords="181,152,357,177"/>
-<area shape="rect" id="node7" href="$d6/db9/interface_results_view_controller.html" title="ViewController derived from BaseViewController that manages views related to showing of the final res..." alt="" coords="381,152,533,177"/>
-</map>

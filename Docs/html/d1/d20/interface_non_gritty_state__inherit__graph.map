@@ -1,6 +1,0 @@
-<map id="NonGrittyState" name="NonGrittyState">
-<area shape="rect" id="node5" href="$d5/d28/interface_non_gritty_clay_loam_state.html" title="State class derived from NonGrittyState that handles state for checking non&#45;grittiness of ClayLoam so..." alt="" coords="5,225,174,251"/>
-<area shape="rect" id="node6" href="$d2/d5f/interface_non_gritty_clay_state.html" title="State class derived from NonGrittyState that handles state for checking non&#45;grittiness of Clay soil t..." alt="" coords="198,225,333,251"/>
-<area shape="rect" id="node7" href="$d0/d33/interface_non_gritty_loam_state.html" title="State class derived from NonGrittyState that handles state for checking non&#45;grittiness of Loam soil t..." alt="" coords="357,225,499,251"/>
-<area shape="rect" id="node2" href="$df/ddf/interface_base_state.html" title="BaseState is a base class for all the states and it conforms to nscoding protocol. " alt="" coords="224,79,307,104"/>
-</map>
